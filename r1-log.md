@@ -8,3 +8,6 @@ The log of my [#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) chal
 thinkpython2.md: Finished Section 1.1 (The Python programming language). Added a lot of files to repo, e.g. Perl and Bash related markdown.
 
 ### R1D2
+thinkperl.md: Finished Section 1.1 (The Perl programming language); added other files, e.g. patch to restore thinkpython2.md from this file.
+
+### R1D3
