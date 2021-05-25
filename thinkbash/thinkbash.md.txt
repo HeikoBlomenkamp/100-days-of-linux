@@ -1,7 +1,13 @@
 ```
-// $Id: thinkbash.md,v 1.1 2021/05/23 16:10:34 heiko Exp $
+// $Id: thinkbash.md,v 1.3 2021/05/25 12:16:24 heiko Exp $
 //
 // $Log: thinkbash.md,v $
+// Revision 1.3  2021/05/25 12:16:24  heiko
+// R1D3: Added some copyright information.
+//
+// Revision 1.2  2021/05/25 11:52:37  heiko
+// R1D3: Finished Section 1.1 (The Bash programming language).
+//
 // Revision 1.1  2021/05/23 16:10:34  heiko
 // Initial revision
 //
@@ -27,9 +33,119 @@ Challenge started on May 23, 2021.
 **Heiko Blomenkamp**
 First Edition (which uses GNU bash 5.1), Version 2.0.21
 
-Copyright (C) 2021 Heiko Blomenkamp.
+Think Python First Edition: Copyright (C) 2017 Allen B. Downey.
+Modifications (Think Bash): Copyright (C) 2021 Heiko Blomenkamp.
 
 Permission is granted to copy, distribute, and/or modify this work under the terms of
 the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
 available at http://creativecommons.org/licenses/by-nc/3.0/.
+
+
+
+- [Preface](#Preface)
+- [The way of the program](#1_The_way_of_the_program)
+    - [The Bash programming language](#11_The_Bash_programming_language)
+
+
+
+## Preface
+
+[postponed]
+`[PS1='-\s(\V):\#:\j> ']`
+
+
+
+## 1\. The way of the program
+
+The goal of this book is to teach you to think like a computer scientist. This way of
+thinking combines some of the best features of mathematics, engineering, and
+natural science. Like mathematicians, computer scientists use formal languages to
+denote ideas (specifically computations). Like engineers, they design things,
+assembling components into systems and evaluating tradeoffs among alternatives.
+Like scientists, they observe the behavior of complex systems, form hypotheses, and
+test predictions.
+
+The single most important skill for a computer scientist is **problem solving**. Problem
+solving means the ability to formulate problems, think creatively about solutions, and
+express a solution clearly and accurately. As it turns out, the process of learning to
+program is an excellent opportunity to practice problem-solving skills. That's why
+this chapter is called, "The way of the program."
+
+On one level, you will be learning to program, a useful skill by itself. On another level,
+you will use programming as a means to an end. As we go along, that end will
+become clearer.
+
+
+
+### 1\.1 The Bash programming language
+
+The programming language you will learn is Bash. Bash is an example of a **high-level
+language**; other high-level languages you might have heard of are C, C++, Python,
+and Java.
+
+There are also **low-level languages**, sometimes referred to as "machine languages"
+or "assembly languages." Loosely speaking, computers can only run programs
+written in low-level languages. So programs written in a high-level language have to
+be processed before they can run. This extra processing takes some time, which is a
+small disadvantage of high-level languages.
+
+The advantages are enormous. First, it is much easier to program in a high-level
+language. Programs written in a high-level language take less time to write, they are
+shorter and easier to read, and they are more likely to be correct. Second, high-level
+languages are **portable**, meaning that they can run on different kinds of computers
+with few or no modifications. Low-level programs can run on only one kind of
+computer and have to be rewritten to run on another.
+
+Due to these advantages, almost all programs are written in high-level languages.
+Low-level languages are used only for a few specialized applications.
+
+Two kinds of programs process high-level languages into low-level languages:
+**interpreters** and **compilers**. An interpreter reads a high-level program and executes
+it, meaning that it does what the program says. It processes the program a little at a
+time, alternately reading lines and performing computations. Figure 1.1 shows the
+structure of an interpreter.
+
+**Figure 1.1**
+: **An interpreter processes the program a little at a time,
+alternately reading lines and performing computations.**
+
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Interpreter](https://greenteapress.com/thinkpython/html/thinkpython001.png "Interpreter")
+
+A compiler reads the program and translates it completely before the program starts
+running. In this context, the high-level program is called the **source code**, and the
+translated program is called the **object code** or the **executable**. Once a program is
+compiled, you can execute it repeatedly without further translation. Figure 1.2 shows
+the structure of a compiler.
+
+**Figure 1.2**
+: **A compiler translates source code into object code,
+which is run by a hardware executor.**
+
+&#x00A0; ![Compiling, and Running](https://greenteapress.com/thinkpython/html/thinkpython002.png "Compiling, and Running")
+
+Bash is considered an interpreted language because Bash programs are executed by an
+interpreter. There are two ways to use the interpreter: **shell mode** and **script mode**. In
+shell mode, you type Bash programs and the interpreter displays the result:
+
+```
+-bash(5.1.8):1:0> expr 1 + 1
+2
+```
+
+The expression `-bash(5.1.8):1:0>` is the prompt the interpreter uses to indicate
+that it is ready. If you type `expr 1 + 1` , the interpreter replies `2` .
+
+Alternatively, you can store code in a file and use the interpreter to execute the
+contents of the file, which is called a **script**. By convention, Bash scripts have names
+that end with `.sh` .
+
+To execute the script, you have to tell the interpreter the name of the file. If you have
+a script named `dinsdale.sh` and you are working in a UNIX command window, you
+type `bash dinsdale.sh` . In other development environments, the details of executing
+scripts are different. You can find instructions for your environment at the Bash
+website `http://gnu.org/software/bash` .
+
+Working in debug mode is convenient for testing small pieces of code because you can
+type and execute them immediately. But for anything more than a few lines, you should
+save your code as a script so you can modify and execute it in the future.
 
