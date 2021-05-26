@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.1 2021/05/23 19:29:43 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.1 2021/05/23 19:29:43 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
 # Revision 1.1  2021/05/23 19:29:43  heiko
@@ -17,7 +17,8 @@ fi
 # Array of all headings
 HEADINGS=('Preface' \
 '1_The_way_of_the_program' \
-'11_The_Python_programming_language')
+'11_The_Python_programming_language' \
+'12_What_is_a_program')
 
 # Keep original file
 cp -ua $1 $2
