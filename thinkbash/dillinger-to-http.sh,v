@@ -1,9 +1,14 @@
-head	1.1;
+head	1.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.2
+date	2021.05.27.13.12.52;	author heiko;	state Exp;
+branches;
+next	1.1;
 
 1.1
 date	2021.05.25.12.03.41;	author heiko;	state Exp;
@@ -16,16 +21,19 @@ desc
 @
 
 
-1.1
+1.2
 log
-@Initial revision
+@R1D5: Added Section 1.1 (What is a program?).
 @
 text
 @#!/bin/bash
 
-# $Id$
+# $Id: dillinger-to-http.sh,v 1.1 2021/05/25 12:03:41 heiko Exp heiko $
 #
-# $Log$
+# $Log: dillinger-to-http.sh,v $
+# Revision 1.1  2021/05/25 12:03:41  heiko
+# Initial revision
+#
 
 # Print short help message
 if [ -z $2 ]
@@ -37,7 +45,8 @@ fi
 # Array of all headings
 HEADINGS=('Preface' \
 '1_The_way_of_the_program' \
-'11_The_Bash_programming_language')
+'11_The_Bash_programming_language' \
+'12_What_is_a_program')
 
 # Keep original file
 cp -ua $1 $2
@@ -56,4 +65,20 @@ do
 done
 
 exit 0
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 5
+a7 1
+# $Id$
+a8 1
+# $Log$
+d20 2
+a21 1
+'11_The_Bash_programming_language')
 @
