@@ -17,3 +17,6 @@ thinkbash.md: Finished Section 1.1 (The Bash programming language); added other 
 thinkpython2.md: Finished Section 1.2 (What is a program?); uploaded index.html file to my website http://blomenk.bplaced.net/thinkpython2/
 
 ### R1D5
+thinkperl.md, thinklua.md, thinkbash.md: Finished Section 1.2 (What is a program?); subdirs on homepage: thinkperl/, thinklua/, thinkbash/.
+
+### R1D6
