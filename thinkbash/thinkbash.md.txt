@@ -1,7 +1,10 @@
 ```
-// $Id: thinkbash.md,v 1.4 2021/05/25 12:53:22 heiko Exp $
+// $Id: thinkbash.md,v 1.5 2021/05/27 13:03:22 heiko Exp $
 //
 // $Log: thinkbash.md,v $
+// Revision 1.5  2021/05/27 13:03:22  heiko
+// R1D5: Added Section 1.2 (What is a program?).
+//
 // Revision 1.4  2021/05/25 12:53:22  heiko
 // R1D3: Replaced debug mode with shell mode.
 //
@@ -48,13 +51,14 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 - [Preface](#Preface)
 - [The way of the program](#1_The_way_of_the_program)
     - [The Bash programming language](#11_The_Bash_programming_language)
+    - [What is a program?](#12_What_is_a_program)
 
 
 
 ## Preface
 
 [postponed]
-`[PS1='-\s(\V):\#:\j> ']`
+`[PS1='-\s(\W):\#:\j> ']`
 
 
 
@@ -151,4 +155,41 @@ website `http://gnu.org/software/bash` .
 Working in shell mode is convenient for testing small pieces of code because you can
 type and execute them immediately. But for anything more than a few lines, you should
 save your code as a script so you can modify and execute it in the future.
+
+
+
+### 1\.2 What is a program?
+
+A **program** is a sequence of instructions that specifies how to perform a
+computation. The computation might be something mathematical, such as solving a
+system of equations or finding the roots of a polynomial, but it can also be a
+symbolic computation, such as searching and replacing text in a document or
+(strangely enough) compiling a program.
+
+The details look different in different languages, but a few basic instructions appear
+in just about every language:
+
+input:
+: Get data from the keyboard, a file, or some other device.
+
+output:
+: Display data on the screen or send data to a file or other device.
+
+math:
+: Perform basic mathematical operations like addition and multiplication.
+
+conditional execution:
+: Check for certain conditions and execute the appropriate code.
+
+repetition:
+: Perform some action repeatedly, usually with some variation.
+
+Believe it or not, that's pretty much all there is to it. Every program you've ever used,
+no matter how complicated, is made up of instructions that look pretty much like
+these. So you can think of programming as the process of breaking a large, complex
+task into smaller and smaller subtasks until the subtasks are simple enough to be
+performed with one of these basic instructions.
+
+That may be a little vague, but we will come back to this topic when we talk about
+**algorithms**.
 
