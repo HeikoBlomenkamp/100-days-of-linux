@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.2 2021/05/27 13:12:52 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.3 2021/05/28 22:43:29 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.3  2021/05/28 22:43:29  heiko
+# R1D6: Added Section 1.3 (What is debugging?).
+#
 # Revision 1.2  2021/05/27 13:12:52  heiko
 # R1D5: Added Section 1.1 (What is a program?).
 #
@@ -21,7 +24,8 @@ fi
 HEADINGS=('Preface' \
 '1_The_way_of_the_program' \
 '11_The_Bash_programming_language' \
-'12_What_is_a_program')
+'12_What_is_a_program' \
+'13_What_is_debugging')
 
 # Keep original file
 cp -ua $1 $2
