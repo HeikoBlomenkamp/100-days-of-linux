@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.1 2021/05/27 12:02:01 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.2 2021/05/28 21:53:06 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.2  2021/05/28 21:53:06  heiko
+# R1D6: Added Section 1.3 (What is debugging?).
+#
 # Revision 1.1  2021/05/27 12:02:01  heiko
 # Initial revision
 #
@@ -18,7 +21,8 @@ fi
 HEADINGS=('Preface' \
 '1_The_way_of_the_program' \
 '11_The_Lua_programming_language' \
-'12_What_is_a_program')
+'12_What_is_a_program' \
+'13_What_is_debugging')
 
 # Keep original file
 cp -ua $1 $2
