@@ -1,7 +1,10 @@
 ```
-// $Id: thinkperl.md,v 1.4 2021/05/27 05:56:05 heiko Exp $
+// $Id: thinkperl.md,v 1.5 2021/05/28 17:17:46 heiko Exp $
 //
 // $Log: thinkperl.md,v $
+// Revision 1.5  2021/05/28 17:17:46  heiko
+// R1D6: Added Section 1.3.1 (What is debugging?).
+//
 // Revision 1.4  2021/05/27 05:56:05  heiko
 // R1D5: Added missing link.
 //
@@ -49,6 +52,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 - [The way of the program](#1_The_way_of_the_program)
     - [The Perl programming language](#11_The_Perl_programming_language)
     - [What is a program?](#12_What_is_a_program)
+    - [What is debugging?](#13_What_is_debugging)
 
 
 
@@ -189,4 +193,32 @@ performed with one of these basic instructions.
 
 That may be a little vague, but we will come back to this topic when we talk about
 **algorithms**.
+
+
+
+### 1\.3 What is debugging?
+
+Programming is error-prone. For whimsical reasons, programming errors are called
+**bugs** and the process of tracking them down is called **debugging**.
+
+Three kinds of errors can occur in a program: syntax errors, runtime errors, and
+semantic errors. It is useful to distinguish between them in order to track them down
+more quickly.
+
+
+
+#### 1\.3\.1 Syntax errors
+
+Perl can only execute a program if the syntax is correct; otherwise, the interpreter
+displays an error message. **Syntax** refers to the structure of a program and the rules
+about that structure. For example, parentheses (in mathematical operations) have to
+come in matching pairs, so `(4 + 5) * 10` is legal, but `8)` is a **syntax error**.
+
+In English, readers can tolerate most syntax errors, which is why we can read the
+poetry of e. e. cummings without spewing error messages. Perl is not so forgiving.
+If there is a single syntax error anywhere in your program, Perl will display an error
+message and quit, and you will not be able to run your program. During the first few
+weeks of your programming career, you will probably spend a lot of time tracking
+down syntax errors. As you gain experience, you will make fewer errors and find
+them faster.
 
