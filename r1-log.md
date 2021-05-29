@@ -20,3 +20,6 @@ thinkpython2.md: Finished Section 1.2 (What is a program?); uploaded index.html 
 thinkperl.md, thinklua.md, thinkbash.md: Finished Section 1.2 (What is a program?); subdirs on homepage: thinkperl/, thinklua/, thinkbash/.
 
 ### R1D6
+thinkperl.md, thinklua.md, thinkbash.md: Finished Section 1.3.1 (Syntax errors); subdirs on my homepage: thinkperl/, thinklua/, thinkbash/.
+
+### R1D7
