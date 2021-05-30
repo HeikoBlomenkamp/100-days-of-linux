@@ -23,3 +23,6 @@ thinkperl.md, thinklua.md, thinkbash.md: Finished Section 1.2 (What is a program
 thinkperl.md, thinklua.md, thinkbash.md: Finished Section 1.3.1 (Syntax errors); subdirs on my homepage: thinkperl/, thinklua/, thinkbash/.
 
 ### R1D7
+thinkksh.md: Finished Section 1.3.1 (Syntax errors); added other files; uploaded index.html to website http://blomenk.bplaced.net/thinkksh/
+
+### R1D8
