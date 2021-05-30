@@ -5,7 +5,7 @@ print (4 + 5) * 10
 #
 # My error message (if executed):
 #
-#  File "s131_syntax_errors.py", line 2
+#  File "s0131_syntax_errors.py", line 2
 #     print 8)
 #            ^
 # SyntaxError: invalid syntax
