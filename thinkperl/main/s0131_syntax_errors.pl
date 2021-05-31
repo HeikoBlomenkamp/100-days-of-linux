@@ -6,5 +6,5 @@ print "\n";
 #
 # My error message (if executed):
 #
-# syntax error at s131_syntax_errors.pl line 5, near "8)"
-# Execution of s131_syntax_errors.pl aborted due to compilation errors.
+# syntax error at s0131_syntax_errors.pl line 5, near "8)"
+# Execution of s0131_syntax_errors.pl aborted due to compilation errors.
