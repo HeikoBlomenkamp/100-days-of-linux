@@ -26,3 +26,6 @@ thinkperl.md, thinklua.md, thinkbash.md: Finished Section 1.3.1 (Syntax errors);
 thinkksh.md: Finished Section 1.3.1 (Syntax errors); added other files; uploaded index.html to website http://blomenk.bplaced.net/thinkksh/
 
 ### R1D8
+thinkpython2.md: Finished Section 1.3 (What is debugging?); uploaded index.html file to my website http://blomenk.bplaced.net/thinkpython2/
+
+### R1D9
