@@ -32,3 +32,9 @@ thinkpython2.md: Finished Section 1.3 (What is debugging?); uploaded index.html 
 thinkperl, thinklua, thinkksh, thinkbash: Finished Section 1.3 (What is debugging?); subdirs: thinkperl/, thinklua/, thinkksh/, thinkbash/.
 
 ### R1D10
+thinkpython2.md: Finished Section 1.4 (Formal and natural languages); uploaded index.html file to http://blomenk.bplaced.net/thinkpython2/
+
+### R1D11
+thinkpython2.md: Modified the alt attributes of two images; changed UNIX to *NIX; changed markdown style of the word "prompt"; did uploads.
+
+### R1D12
