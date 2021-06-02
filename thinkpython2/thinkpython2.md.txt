@@ -1,7 +1,10 @@
 ```
-// $Id: thinkpython2.md,v 1.6 2021/06/01 06:54:26 heiko Exp $
+// $Id: thinkpython2.md,v 1.7 2021/06/02 20:22:52 heiko Exp $
 //
 // $Log: thinkpython2.md,v $
+// Revision 1.7  2021/06/02 20:22:52  heiko
+// R1D11: Modified the alt attributes of two images.
+//
 // Revision 1.6  2021/06/01 06:54:26  heiko
 // R1D10: Finished Section 1.4 (Formal and natural languages).
 //
@@ -117,7 +120,7 @@ structure of an interpreter.
 : **An interpreter processes the program a little at a time,
 alternately reading lines and performing computations.**
 
-&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Interpreter](https://greenteapress.com/thinkpython/html/thinkpython001.png "Interpreter")
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![From: Source Code to: Interpreter to: Output.](https://greenteapress.com/thinkpython/html/thinkpython001.png "Figure 1.1")
 
 A compiler reads the program and translates it completely before the program starts
 running. In this context, the high-level program is called the **source code**, and the
@@ -129,7 +132,7 @@ the structure of a compiler.
 : **A compiler translates source code into object code,
 which is run by a hardware executor.**
 
-&#x00A0; ![Compiling, and Running](https://greenteapress.com/thinkpython/html/thinkpython002.png "Compiling, and Running")
+&#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
 
 Python is considered an interpreted language because Python programs are
 executed by an interpreter. There are two ways to use the interpreter: **interactive
@@ -141,7 +144,7 @@ interpreter displays the result:
 2
 ```
 
-The chevron, `>>>` , is the prompt the interpreter uses to indicate that it is ready. If you
+The chevron, `>>>` , is the **prompt** the interpreter uses to indicate that it is ready. If you
 type `1 + 1` , the interpreter replies `2` .
 
 Alternatively, you can store code in a file and use the interpreter to execute the
@@ -149,7 +152,7 @@ contents of the file, which is called a **script**. By convention, Python script
 names that end with `.py` .
 
 To execute the script, you have to tell the interpreter the name of the file. If you have
-a script named `dinsdale.py` and you are working in a UNIX command window, you
+a script named `dinsdale.py` and you are working in a \*NIX command window, you
 type `python dinsdale.py` . In other development environments, the details of executing
 scripts are different. You can find instructions for your environment at the Python
 website `http://python.org` .
