@@ -38,3 +38,9 @@ thinkpython2.md: Finished Section 1.4 (Formal and natural languages); uploaded i
 thinkpython2.md: Modified the alt attributes of two images; changed UNIX to *NIX; changed markdown style of the word "prompt"; did uploads.
 
 ### R1D12
+thinkperl, thinklua, thinkksh, thinkbash: Applied R1D11 changes of thinkpython2.md to all *.md files, but only locally. Will upload later.
+
+### R1D13
+thinkpython2.md: Modified the structure of Section 1.3.1 (Syntax errors); deleted all following content. Uploaded my index.html to bplaced.
+
+### R1D14
