@@ -44,3 +44,6 @@ thinkperl, thinklua, thinkksh, thinkbash: Applied R1D11 changes of thinkpython2.
 thinkpython2.md: Modified the structure of Section 1.3.1 (Syntax errors); deleted all following content. Uploaded my index.html to bplaced.
 
 ### R1D14
+thinkpython2, thinkperl: Added Section 1.3.2 (Runtime errors); deleted all following content. Uploaded the index.html files to bplaced.net.
+
+### R1D15
