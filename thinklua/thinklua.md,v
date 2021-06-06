@@ -1,9 +1,14 @@
-head	1.4;
+head	1.5;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.5
+date	2021.06.06.21.04.59;	author heiko;	state Exp;
+branches;
+next	1.4;
 
 1.4
 date	2021.05.31.12.01.01;	author heiko;	state Exp;
@@ -31,15 +36,18 @@ desc
 @
 
 
-1.4
+1.5
 log
-@R1D9: Finished Section 1.3 (What is debugging?).
+@R1D15: Added Section 1.3.2 (Runtime errors).
 @
 text
 @```
-// $Id: thinklua.md,v 1.3 2021/05/29 20:28:48 heiko Exp heiko $
+// $Id: thinklua.md,v 1.4 2021/05/31 12:01:01 heiko Exp heiko $
 //
 // $Log: thinklua.md,v $
+// Revision 1.4  2021/05/31 12:01:01  heiko
+// R1D9: Finished Section 1.3 (What is debugging?).
+//
 // Revision 1.3  2021/05/29 20:28:48  heiko
 // R1D7: Added missing link.
 //
@@ -148,7 +156,7 @@ structure of an interpreter.
 : **An interpreter processes the program a little at a time,
 alternately reading lines and performing computations.**
 
-&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Interpreter](https://greenteapress.com/thinkpython/html/thinkpython001.png "Interpreter")
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![From: Source Code to: Interpreter to: Output.](https://greenteapress.com/thinkpython/html/thinkpython001.png "Figure 1.1")
 
 A compiler reads the program and translates it completely before the program starts
 running. In this context, the high-level program is called the **source code**, and the
@@ -160,7 +168,7 @@ the structure of a compiler.
 : **A compiler translates source code into object code,
 which is run by a hardware executor.**
 
-&#x00A0; ![Compiling, and Running](https://greenteapress.com/thinkpython/html/thinkpython002.png "Compiling, and Running")
+&#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
 
 Lua is considered an interpreted language because Lua programs are executed by an
 interpreter. There are two ways to use the interpreter: **interactive mode** and **script
@@ -172,7 +180,7 @@ result:
 2
 ```
 
-The chevron, `>` , is the prompt the interpreter uses to indicate that it is ready. If you
+The chevron, `>` , is the **prompt** the interpreter uses to indicate that it is ready. If you
 type `1 + 1` , the interpreter replies `2` .
 
 Alternatively, you can store code in a file and use the interpreter to execute the
@@ -180,7 +188,7 @@ contents of the file, which is called a **script**. By convention, Lua scripts h
 that end with `.lua` .
 
 To execute the script, you have to tell the interpreter the name of the file. If you have
-a script named `dinsdale.lua` and you are working in a UNIX command window, you
+a script named `dinsdale.lua` and you are working in a \*NIX command window, you
 type `lua dinsdale.lua` . In other development environments, the details of executing
 scripts are different. You can find instructions for your environment at the Lua
 website `http://lua.org` .
@@ -243,11 +251,11 @@ more quickly.
 
 Lua can only execute a program if the syntax is correct; otherwise, the interpreter
 displays an error message. **Syntax** refers to the structure of a program and the rules
-about that structure. For example, parentheses (in mathematical operations) have to
-come in matching pairs, so `(4 + 5) * 10` is legal, but `8)` is a **syntax error**.
+about that structure. In mathematical operations, for example, parentheses have to
+come in matching pairs; so `(4 + 5) * 10` is legal, but `8)` is a **syntax error**.
 
 In English, readers can tolerate most syntax errors, which is why we can read the
-poetry of e. e. cummings without spewing error messages. Lua is not so forgiving.
+poetry of e e cummings without spewing error messages. Lua is not so forgiving.
 If there is a single syntax error anywhere in your program, Lua will display an error
 message and quit, and you will not be able to run your program. During the first few
 weeks of your programming career, you will probably spend a lot of time tracking
@@ -265,6 +273,39 @@ happened.
 
 Runtime errors are rare in the simple programs you will see in the first few chapters,
 so it might be a while before you encounter one.
+
+@
+
+
+1.4
+log
+@R1D9: Finished Section 1.3 (What is debugging?).
+@
+text
+@d2 1
+a2 1
+// $Id: thinklua.md,v 1.3 2021/05/29 20:28:48 heiko Exp heiko $
+d5 3
+d116 1
+a116 1
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Interpreter](https://greenteapress.com/thinkpython/html/thinkpython001.png "Interpreter")
+d128 1
+a128 1
+&#x00A0; ![Compiling, and Running](https://greenteapress.com/thinkpython/html/thinkpython002.png "Compiling, and Running")
+d140 1
+a140 1
+The chevron, `>` , is the prompt the interpreter uses to indicate that it is ready. If you
+d148 1
+a148 1
+a script named `dinsdale.lua` and you are working in a UNIX command window, you
+d211 2
+a212 2
+about that structure. For example, parentheses (in mathematical operations) have to
+come in matching pairs, so `(4 + 5) * 10` is legal, but `8)` is a **syntax error**.
+d215 1
+a215 1
+poetry of e. e. cummings without spewing error messages. Lua is not so forgiving.
+a232 48
 
 
 
@@ -313,7 +354,6 @@ that would switch between printing AAAA and BBBB. This later evolved to Linux."
 
 Later chapters will make more suggestions about debugging and other
 programming practices.
-
 @
 
 
