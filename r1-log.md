@@ -47,3 +47,9 @@ thinkpython2.md: Modified the structure of Section 1.3.1 (Syntax errors); delete
 thinkpython2, thinkperl: Added Section 1.3.2 (Runtime errors); deleted all following content. Uploaded the index.html files to bplaced.net.
 
 ### R1D15
+thinklua.md: Added Section 1.3.2 (Runtime errors); deleted all following content. Uploaded index.html file to http://blomenk.bplaced.net.
+
+### R1D16
+thinkksh.md: Added Section 1.3.2 (Runtime errors); deleted all following content. Uploaded index.html file to http://blomenk.bplaced.net.
+
+### R1D17
