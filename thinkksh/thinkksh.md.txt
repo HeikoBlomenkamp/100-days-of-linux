@@ -1,7 +1,10 @@
 ```
-// $Id: thinkksh.md,v 1.2 2021/05/31 12:13:01 heiko Exp $
+// $Id: thinkksh.md,v 1.3 2021/06/07 16:33:08 heiko Exp $
 //
 // $Log: thinkksh.md,v $
+// Revision 1.3  2021/06/07 16:33:08  heiko
+// R1D16: Added Section 1.3.2 (Runtime errors).
+//
 // Revision 1.2  2021/05/31 12:13:01  heiko
 // R1D9: Finished Section 1.3 (What is debugging?).
 //
@@ -109,7 +112,7 @@ structure of an interpreter.
 : **An interpreter processes the program a little at a time,
 alternately reading lines and performing computations.**
 
-&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Interpreter](https://greenteapress.com/thinkpython/html/thinkpython001.png "Interpreter")
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![From: Source Code to: Interpreter to: Output.](https://greenteapress.com/thinkpython/html/thinkpython001.png "Figure 1.1")
 
 A compiler reads the program and translates it completely before the program starts
 running. In this context, the high-level program is called the **source code**, and the
@@ -121,7 +124,7 @@ the structure of a compiler.
 : **A compiler translates source code into object code,
 which is run by a hardware executor.**
 
-&#x00A0; ![Compiling, and Running](https://greenteapress.com/thinkpython/html/thinkpython002.png "Compiling, and Running")
+&#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
 
 KSH is considered an interpreted language because KSH programs are executed by an
 interpreter. There are two ways to use the interpreter: **interactive mode** and **script
@@ -133,7 +136,7 @@ ksh(93u+):1:0> echo $((1 + 1))
 2
 ```
 
-The expression `ksh(93u+):1:0>` is the prompt the interpreter uses to indicate that it is
+The expression `ksh(93u+):1:0>` is the **prompt** the interpreter uses to indicate that it is
 ready. If you type `echo $((1 + 1))` , the interpreter replies `2` .
 
 Alternatively, you can store code in a file and use the interpreter to execute the
@@ -141,7 +144,7 @@ contents of the file, which is called a **script**. By convention, KSH scripts h
 that end with `.ksh` .
 
 To execute the script, you have to tell the interpreter the name of the file. If you have
-a script named `dinsdale.ksh` and you are working in a UNIX command window, you
+a script named `dinsdale.ksh` and you are working in a \*NIX command window, you
 type `ksh dinsdale.ksh` . In other development environments, the details of executing
 scripts are different. You can find instructions for your environment at the KSH
 website `http://kornshell.com` .
@@ -204,11 +207,11 @@ more quickly.
 
 KSH can only execute a program if the syntax is correct; otherwise, the interpreter
 displays an error message. **Syntax** refers to the structure of a program and the rules
-about that structure. For example, parentheses (in mathematical operations) have to
-come in matching pairs, so `(4 + 5) * 10` is legal, but `8)` is a **syntax error**.
+about that structure. In mathematical operations, for example, parentheses have to
+come in matching pairs; so `(4 + 5) * 10` is legal, but `8)` is a **syntax error**.
 
 In English, readers can tolerate most syntax errors, which is why we can read the
-poetry of e. e. cummings without spewing error messages. KSH is not so forgiving.
+poetry of e e cummings without spewing error messages. KSH is not so forgiving.
 If there is a single syntax error anywhere in your program, KSH will display an error
 message and quit, and you will not be able to run your program. During the first few
 weeks of your programming career, you will probably spend a lot of time tracking
@@ -226,52 +229,4 @@ happened.
 
 Runtime errors are rare in the simple programs you will see in the first few chapters,
 so it might be a while before you encounter one.
-
-
-
-#### 1\.3\.3 Semantic errors
-
-The third type of error is the **semantic error**. If there is a semantic error in your
-program, it will run successfully in the sense that the computer will not generate any
-error messages, but it will not do the right thing. It will do something else.
-Specifically, it will do what you told it to do.
-
-The problem is that the program you wrote is not the program you wanted to write.
-The meaning of the program (its semantics) is wrong. Identifying semantic errors
-can be tricky because it requires you to work backward by looking at the output of
-the program and trying to figure out what it is doing.
-
-
-
-#### 1\.3\.4 Experimental debugging
-
-One of the most important skills you will acquire is debugging. Although it can be
-frustrating, debugging is one of the most intellectually rich, challenging, and
-interesting parts of programming.
-
-In some ways, debugging is like detective work. You are confronted with clues, and
-you have to infer the processes and events that led to the results you see.
-
-Debugging is also like an experimental science. Once you have an idea about what is
-going wrong, you modify your program and try again. If your hypothesis was correct,
-then you can predict the result of the modification, and you take a step closer to a
-working program. If your hypothesis was wrong, you have to come up with a new
-one. As Sherlock Holmes pointed out, "When you have eliminated the impossible,
-whatever remains, however improbable, must be the truth." (A. Conan Doyle, *The Sign
-of Four*).
-
-For some people, programming and debugging are the same thing. That is,
-programming is the process of gradually debugging a program until it does what you
-want. The idea is that you should start with a program that does *something* and
-make small modifications, debugging them as you go, so that you always have a
-working program.
-
-For example, Linux is an operating system that contains thousands of lines of code,
-but it started out as a simple program Linus Torvalds used to explore the Intel 80386
-chip. According to Larry Greenfield, "One of Linus's earlier projects was a program
-that would switch between printing AAAA and BBBB. This later evolved to Linux."
-(*The Linux Users' Guide*, Beta Version 1).
-
-Later chapters will make more suggestions about debugging and other
-programming practices.
 
