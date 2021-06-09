@@ -53,3 +53,10 @@ thinklua.md: Added Section 1.3.2 (Runtime errors); deleted all following content
 thinkksh.md: Added Section 1.3.2 (Runtime errors); deleted all following content. Uploaded index.html file to http://blomenk.bplaced.net.
 
 ### R1D17
+thinkbash.md: Added Section 1.3.2 (Runtime errors); deleted all following content. Uploaded index.html file to http://blomenk.bplaced.net.
+
+### R1D18
+thinkpython2.md: Added Section 1.3.3 (Semantic errors). Uploaded the index.html file to website http://blomenk.bplaced.net/thinkpython2/
+
+### R1D19
+
