@@ -59,4 +59,6 @@ thinkbash.md: Added Section 1.3.2 (Runtime errors); deleted all following conten
 thinkpython2.md: Added Section 1.3.3 (Semantic errors). Uploaded the index.html file to website http://blomenk.bplaced.net/thinkpython2/
 
 ### R1D19
+thinkperl.md: Added Section 1.3.3 (Semantic errors). Uploaded the index.html file to online server http://blomenk.bplaced.net/thinkperl/
 
+### R1D20
