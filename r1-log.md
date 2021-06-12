@@ -62,3 +62,6 @@ thinkpython2.md: Added Section 1.3.3 (Semantic errors). Uploaded the index.html 
 thinkperl.md: Added Section 1.3.3 (Semantic errors). Uploaded the index.html file to online server http://blomenk.bplaced.net/thinkperl/
 
 ### R1D20
+thinklua.md: Added Section 1.3.3 (Semantic errors). Uploaded my index.html file to online server at http://blomenk.bplaced.net/thinklua/
+
+### R1D21
