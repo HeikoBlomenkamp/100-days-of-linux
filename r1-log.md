@@ -74,3 +74,6 @@ thinkbash.md: Added Section 1.3.3 (Semantic errors). Uploaded index.html file to
 thinkpython2.md: Added Section 1.3.4 (Experimental debugging). Uploaded my index.html to server http://blomenk.bplaced.net/thinkpython2/
 
 ### R1D24
+thinkperl.md: Added Section 1.3.4 (Experimental debugging). Uploaded index.html to online server @ http://blomenk.bplaced.net/thinkperl/
+
+### R1D25
