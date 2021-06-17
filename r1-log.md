@@ -80,3 +80,6 @@ thinkperl.md: Added Section 1.3.4 (Experimental debugging). Uploaded index.html 
 thinklua.md: Added Section 1.3.4 (Experimental debugging). Uploaded the index.html to online server http://blomenk.bplaced.net/thinklua/
 
 ### R1D26
+thinkksh.md: Added Section 1.3.4 (Experimental debugging). Uploaded the index.html to online server http://blomenk.bplaced.net/thinkksh/
+
+### R1D27
