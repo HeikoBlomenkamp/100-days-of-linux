@@ -83,3 +83,6 @@ thinklua.md: Added Section 1.3.4 (Experimental debugging). Uploaded the index.ht
 thinkksh.md: Added Section 1.3.4 (Experimental debugging). Uploaded the index.html to online server http://blomenk.bplaced.net/thinkksh/
 
 ### R1D27
+thinkbash.md: Added Section 1.3.4 (Experimental debugging). Uploaded index.html to online server @ http://blomenk.bplaced.net/thinkbash/
+
+### R1D28
