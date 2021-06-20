@@ -86,3 +86,9 @@ thinkksh.md: Added Section 1.3.4 (Experimental debugging). Uploaded the index.ht
 thinkbash.md: Added Section 1.3.4 (Experimental debugging). Uploaded index.html to online server @ http://blomenk.bplaced.net/thinkbash/
 
 ### R1D28
+Repetition of Fortran 90. Decided to postpone that repetition of Fortran 90. Reset of all environment changes; deleted VM for Fortran 90.
+
+### R1D29
+thinkpython2.md: Added first part of Section 1.4 (Formal and natural languages); upload to HTTP server, not to GitHub (will do it later).
+
+### R1D30
