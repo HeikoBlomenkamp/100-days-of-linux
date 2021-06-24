@@ -98,3 +98,6 @@ thinkperl.md: Added first part of Section 1.4 (Formal and natural languages); up
 thinklua.md: Added first part of Section 1.4 (Formal and natural languages); upload to HTTP server, not to the GitHub (will do it later).
 
 ### R1D32
+thinkksh.md: Added first part of Section 1.4 (Formal and natural languages); upload to HTTP server, not to the GitHub (will do it later).
+
+### R1D33
