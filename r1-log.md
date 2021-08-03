@@ -119,3 +119,6 @@ Break.
 thinkksh.md: Added second part of Section 1.4 (Formal and natural languages); upload to HTTP server, not to the GitHub (will do it later).
 
 ### R1D73
+thinkbash.md: Added second part of Section 1.4 (Formal and natural languages); upload to HTTP server, not to my GitHub (will do it later).
+
+### R1D74
