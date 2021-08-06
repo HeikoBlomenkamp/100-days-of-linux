@@ -125,3 +125,6 @@ thinkbash.md: Added second part of Section 1.4 (Formal and natural languages); u
 thinkpython2.md: Added the last part of Section 1.4 (Formal and natural languages); upload to HTTP server, also to this GitHub repository.
 
 ### R1D75
+thinkperl.md: Added the last part of Section 1.4 (Formal and natural languages); upload to my HTTP server, also to this GitHub repository.
+
+### R1D76
