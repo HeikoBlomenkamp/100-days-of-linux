@@ -128,3 +128,6 @@ thinkpython2.md: Added the last part of Section 1.4 (Formal and natural language
 thinkperl.md: Added the last part of Section 1.4 (Formal and natural languages); upload to my HTTP server, also to this GitHub repository.
 
 ### R1D76
+thinklua.md: Added the last part of Section 1.4 (Formal and natural languages); upload to the HTTP server, also to this GitHub repository.
+
+### R1D77
