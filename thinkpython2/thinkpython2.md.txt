@@ -1,7 +1,16 @@
 ```
-// $Id: thinkpython2.md,v 1.13 2021/08/07 22:53:20 heiko Exp $
+// $Id: thinkpython2.md,v 1.16 2021/08/08 22:15:53 heiko Exp $
 //
 // $Log: thinkpython2.md,v $
+// Revision 1.16  2021/08/08 22:15:53  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
+// Revision 1.15  2021/08/08 21:23:00  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
+// Revision 1.14  2021/08/08 21:13:54  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.13  2021/08/07 22:53:20  heiko
 // R1D77: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -64,9 +73,9 @@ First Edition (which uses Python 2), Version 2.0.17
 
 Copyright (C) 2017 Allen B. Downey.
 
-Permission is granted to copy, distribute, and/or modify this work under the terms of
-the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
-available at http://creativecommons.org/licenses/by-nc/3.0/.
+Permission is granted to copy, distribute, and/or modify this work under the terms of the
+Creative Commons Attribution-NonCommercial 3.0 Unported License, which is available at
+http://creativecommons.org/licenses/by-nc/3.0/.
 
 
 
@@ -391,7 +400,7 @@ Here are some suggestions for reading programs (and other formal languages). Fir
 remember that formal languages are *much more dense* than natural languages, so it takes
 longer to read them. Also, the structure is very important, so it is usually not a
 good idea to read from top to bottom, left to right. Instead, *learn to parse* the
-program in your head, identifying the tokens and interpreting the structure.  Finally,
+program in your head, identifying the tokens and interpreting the structure. Finally,
 the details matter. Small errors in *spelling* and *punctuation*, which you can get away
 with in natural languages, can make a big difference in a formal language.
 
