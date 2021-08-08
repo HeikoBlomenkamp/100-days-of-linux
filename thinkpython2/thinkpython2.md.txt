@@ -1,7 +1,13 @@
 ```
-// $Id: thinkpython2.md,v 1.16 2021/08/08 22:15:53 heiko Exp $
+// $Id: thinkpython2.md,v 1.18 2021/08/08 23:18:48 heiko Exp $
 //
 // $Log: thinkpython2.md,v $
+// Revision 1.18  2021/08/08 23:18:48  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
+// Revision 1.17  2021/08/08 23:09:08  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.16  2021/08/08 22:15:53  heiko
 // R1D78: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -73,9 +79,9 @@ First Edition (which uses Python 2), Version 2.0.17
 
 Copyright (C) 2017 Allen B. Downey.
 
-Permission is granted to copy, distribute, and/or modify this work under the terms of the
-Creative Commons Attribution-NonCommercial 3.0 Unported License, which is available at
-http://creativecommons.org/licenses/by-nc/3.0/.
+Permission is granted to copy, distribute, and/or modify this work under the terms of
+the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
+available at http://creativecommons.org/licenses/by-nc/3.0/.
 
 
 
@@ -87,10 +93,12 @@ http://creativecommons.org/licenses/by-nc/3.0/.
     - [Formal and natural languages](#14_Formal_and_natural_languages)
 
 
+
 ## Preface
 
 [postponed]
 [version: python -V]
+
 
 
 ## 1\. The way of the program
