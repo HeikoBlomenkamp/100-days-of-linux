@@ -1,10 +1,19 @@
---- blomenk_python2.txt	2021-08-08 01:33:20.919139204 +0200
+--- blomenk_python2.txt	2021-08-09 00:29:09.015009604 +0200
 +++ downey_python2.txt	2021-08-08 01:32:52.570294578 +0200
-@@ -1,81 +1,10 @@
+@@ -1,91 +1,10 @@
  
--// $Id: thinkpython2.md,v 1.13 2021/08/07 22:53:20 heiko Exp $
+-// $Id: thinkpython2.md,v 1.16 2021/08/08 22:15:53 heiko Exp $
 -//
 -// $Log: thinkpython2.md,v $
+-// Revision 1.16  2021/08/08 22:15:53  heiko
+-// R1D78: Modified columns per line (lynx dump: 95 cpl).
+-//
+-// Revision 1.15  2021/08/08 21:23:00  heiko
+-// R1D78: Modified columns per line (lynx dump: 95 cpl).
+-//
+-// Revision 1.14  2021/08/08 21:13:54  heiko
+-// R1D78: Modified columns per line (lynx dump: 95 cpl).
+-//
 -// Revision 1.13  2021/08/07 22:53:20  heiko
 -// R1D77: Modified columns per line (lynx dump: 95 cpl).
 -//
@@ -64,8 +73,9 @@
 -   Copyright © 2017 Allen B. Downey.
 -
 -   Permission is granted to copy, distribute, and/or modify this work under the terms of
--   the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
--   available at [5]http://creativecommons.org/licenses/by-nc/3.0/.
+-   the
+-   Creative Commons Attribution-NonCommercial 3.0 Unported License, which is available at
+-   [5]http://creativecommons.org/licenses/by-nc/3.0/.
 -     * [6]Preface
 -     * [7]The way of the program
 -          + [8]The Python programming language
@@ -86,7 +96,7 @@
  
     The goal of this book is to teach you to think like a computer scientist. This way of
     thinking combines some of the best features of mathematics, engineering, and natural
-@@ -94,7 +23,7 @@
+@@ -104,7 +23,7 @@
     level, you will use programming as a means to an end. As we go along, that end will
     become clearer.
  
@@ -95,7 +105,7 @@
  
     The programming language you will learn is Python. Python is an example of a
     high-level language; other high-level languages you might have heard of are C, C++,
-@@ -119,26 +48,28 @@
+@@ -129,26 +48,28 @@
     Two kinds of programs process high-level languages into low-level languages:
     interpreters and compilers. An interpreter reads a high-level program and executes it,
     meaning that it does what the program says. It processes the program a little at a
@@ -134,7 +144,7 @@
  
     Python is considered an interpreted language because Python programs are executed by
     an interpreter. There are two ways to use the interpreter: interactive mode and script
-@@ -147,24 +78,24 @@
+@@ -157,24 +78,24 @@
  >>> 1 + 1
  2
  
@@ -166,7 +176,7 @@
  
     A program is a sequence of instructions that specifies how to perform a computation.
     The computation might be something mathematical, such as solving a system of equations
-@@ -199,7 +130,7 @@
+@@ -209,7 +130,7 @@
     That may be a little vague, but we will come back to this topic when we talk about
     algorithms.
  
@@ -175,7 +185,7 @@
  
     Programming is error-prone. For whimsical reasons, programming errors are called bugs
     and the process of tracking them down is called debugging.
-@@ -208,22 +139,22 @@
+@@ -218,22 +139,22 @@
     semantic errors. It is useful to distinguish between them in order to track them down
     more quickly.
  
@@ -203,7 +213,7 @@
  
     The second type of error is a runtime error, so called because the error does not
     appear until after the program has started running. These errors are also called
-@@ -233,7 +164,7 @@
+@@ -243,7 +164,7 @@
     Runtime errors are rare in the simple programs you will see in the first few chapters,
     so it might be a while before you encounter one.
  
@@ -212,7 +222,7 @@
  
     The third type of error is the semantic error. If there is a semantic error in your
     program, it will run successfully in the sense that the computer will not generate any
-@@ -245,7 +176,7 @@
+@@ -255,7 +176,7 @@
     tricky because it requires you to work backward by looking at the output of the
     program and trying to figure out what it is doing.
  
@@ -221,7 +231,7 @@
  
     One of the most important skills you will acquire is debugging. Although it can be
     frustrating, debugging is one of the most intellectually rich, challenging, and
-@@ -258,11 +189,8 @@
+@@ -268,11 +189,8 @@
     going wrong, you modify your program and try again. If your hypothesis was correct,
     then you can predict the result of the modification, and you take a step closer to a
     working program. If your hypothesis was wrong, you have to come up with a new one. As
@@ -235,7 +245,7 @@
  
     For some people, programming and debugging are the same thing. That is, programming is
     the process of gradually debugging a program until it does what you want. The idea is
-@@ -271,17 +199,14 @@
+@@ -281,17 +199,14 @@
  
     For example, Linux is an operating system that contains thousands of lines of code,
     but it started out as a simple program Linus Torvalds used to explore the Intel 80386
@@ -257,7 +267,7 @@
  
     Natural languages are the languages people speak, such as English, Spanish, and
     French. They were not designed by people (although people try to impose some order on
-@@ -293,23 +218,27 @@
+@@ -303,23 +218,27 @@
     formal language to represent the chemical structure of molecules. And most
     importantly:
  
@@ -292,7 +302,7 @@
  
     When you read a sentence in English or a statement in a formal language, you have to
     figure out what the structure of the sentence is (although in a natural language you
-@@ -367,16 +296,252 @@
+@@ -377,16 +296,252 @@
     the details matter. Small errors in spelling and punctuation, which you can get away
     with in natural languages, can make a big difference in a formal language.
  
