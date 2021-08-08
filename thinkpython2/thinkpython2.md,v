@@ -1,9 +1,19 @@
-head	1.16;
+head	1.18;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.18
+date	2021.08.08.23.18.48;	author heiko;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2021.08.08.23.09.08;	author heiko;	state Exp;
+branches;
+next	1.16;
 
 1.16
 date	2021.08.08.22.15.53;	author heiko;	state Exp;
@@ -91,15 +101,21 @@ desc
 @
 
 
-1.16
+1.18
 log
 @R1D78: Modified columns per line (lynx dump: 95 cpl).
 @
 text
 @```
-// $Id: thinkpython2.md,v 1.15 2021/08/08 21:23:00 heiko Exp heiko $
+// $Id: thinkpython2.md,v 1.17 2021/08/08 23:09:08 heiko Exp heiko $
 //
 // $Log: thinkpython2.md,v $
+// Revision 1.17  2021/08/08 23:09:08  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
+// Revision 1.16  2021/08/08 22:15:53  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.15  2021/08/08 21:23:00  heiko
 // R1D78: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -168,9 +184,9 @@ First Edition (which uses Python 2), Version 2.0.17
 
 Copyright (C) 2017 Allen B. Downey.
 
-Permission is granted to copy, distribute, and/or modify this work under the terms of the
-Creative Commons Attribution-NonCommercial 3.0 Unported License, which is available at
-http://creativecommons.org/licenses/by-nc/3.0/.
+Permission is granted to copy, distribute, and/or modify this work under the terms of
+the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
+available at http://creativecommons.org/licenses/by-nc/3.0/.
 
 
 
@@ -182,10 +198,12 @@ http://creativecommons.org/licenses/by-nc/3.0/.
     - [Formal and natural languages](#14_Formal_and_natural_languages)
 
 
+
 ## Preface
 
 [postponed]
 [version: python -V]
+
 
 
 ## 1\. The way of the program
@@ -499,6 +517,41 @@ program in your head, identifying the tokens and interpreting the structure. Fin
 the details matter. Small errors in *spelling* and *punctuation*, which you can get away
 with in natural languages, can make a big difference in a formal language.
 
+@
+
+
+1.17
+log
+@R1D78: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 1.16 2021/08/08 22:15:53 heiko Exp heiko $
+d5 3
+d80 2
+a81 2
+the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is available
+at http://creativecommons.org/licenses/by-nc/3.0/.
+@
+
+
+1.16
+log
+@R1D78: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 1.15 2021/08/08 21:23:00 heiko Exp heiko $
+d5 3
+d76 3
+a78 3
+Permission is granted to copy, distribute, and/or modify this work under the terms of the
+Creative Commons Attribution-NonCommercial 3.0 Unported License, which is available at
+http://creativecommons.org/licenses/by-nc/3.0/.
+d90 1
+d95 1
 @
 
 
