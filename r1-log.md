@@ -131,3 +131,6 @@ thinkperl.md: Added the last part of Section 1.4 (Formal and natural languages);
 thinklua.md: Added the last part of Section 1.4 (Formal and natural languages); upload to the HTTP server, also to this GitHub repository.
 
 ### R1D77
+thinkpython2.md: Modified columns per line, so that the online HTML file is comparable to the “lynx -dump -width=95” of the original HTML. 
+
+### R1D78
