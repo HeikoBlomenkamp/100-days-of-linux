@@ -1,9 +1,24 @@
-head	1.13;
+head	1.16;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.16
+date	2021.08.08.22.15.53;	author heiko;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2021.08.08.21.23.00;	author heiko;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2021.08.08.21.13.54;	author heiko;	state Exp;
+branches;
+next	1.13;
 
 1.13
 date	2021.08.07.22.53.20;	author heiko;	state Exp;
@@ -76,15 +91,24 @@ desc
 @
 
 
-1.13
+1.16
 log
-@R1D77: Modified columns per line (lynx dump: 95 cpl).
+@R1D78: Modified columns per line (lynx dump: 95 cpl).
 @
 text
 @```
-// $Id: thinkpython2.md,v 1.12 2021/08/05 00:58:40 heiko Exp heiko $
+// $Id: thinkpython2.md,v 1.15 2021/08/08 21:23:00 heiko Exp heiko $
 //
 // $Log: thinkpython2.md,v $
+// Revision 1.15  2021/08/08 21:23:00  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
+// Revision 1.14  2021/08/08 21:13:54  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
+// Revision 1.13  2021/08/07 22:53:20  heiko
+// R1D77: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.12  2021/08/05 00:58:40  heiko
 // R1D74: Added Section 1.4 (Formal and natural languages).
 //
@@ -144,9 +168,9 @@ First Edition (which uses Python 2), Version 2.0.17
 
 Copyright (C) 2017 Allen B. Downey.
 
-Permission is granted to copy, distribute, and/or modify this work under the terms of
-the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
-available at http://creativecommons.org/licenses/by-nc/3.0/.
+Permission is granted to copy, distribute, and/or modify this work under the terms of the
+Creative Commons Attribution-NonCommercial 3.0 Unported License, which is available at
+http://creativecommons.org/licenses/by-nc/3.0/.
 
 
 
@@ -471,10 +495,58 @@ Here are some suggestions for reading programs (and other formal languages). Fir
 remember that formal languages are *much more dense* than natural languages, so it takes
 longer to read them. Also, the structure is very important, so it is usually not a
 good idea to read from top to bottom, left to right. Instead, *learn to parse* the
-program in your head, identifying the tokens and interpreting the structure.  Finally,
+program in your head, identifying the tokens and interpreting the structure. Finally,
 the details matter. Small errors in *spelling* and *punctuation*, which you can get away
 with in natural languages, can make a big difference in a formal language.
 
+@
+
+
+1.15
+log
+@R1D78: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 1.14 2021/08/08 21:13:54 heiko Exp heiko $
+d5 3
+d400 1
+a400 1
+program in your head, identifying the tokens and interpreting the structure.  Finally,
+@
+
+
+1.14
+log
+@R1D78: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 1.13 2021/08/07 22:53:20 heiko Exp heiko $
+d5 3
+d70 3
+a72 3
+Permission is granted to copy, distribute, and/or modify this work under the terms of
+the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is available
+at http://creativecommons.org/licenses/by-nc/3.0/.
+@
+
+
+1.13
+log
+@R1D77: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 1.12 2021/08/05 00:58:40 heiko Exp heiko $
+d5 3
+d68 2
+a69 2
+the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
+available at http://creativecommons.org/licenses/by-nc/3.0/.
 @
 
 
