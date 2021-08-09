@@ -1,9 +1,14 @@
-head	1.18;
+head	1.19;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.19
+date	2021.08.09.23.04.32;	author heiko;	state Exp;
+branches;
+next	1.18;
 
 1.18
 date	2021.08.08.23.18.48;	author heiko;	state Exp;
@@ -101,15 +106,18 @@ desc
 @
 
 
-1.18
+1.19
 log
-@R1D78: Modified columns per line (lynx dump: 95 cpl).
+@R1D79: Modified columns per line (lynx dump: 95 cpl).
 @
 text
 @```
-// $Id: thinkpython2.md,v 1.17 2021/08/08 23:09:08 heiko Exp heiko $
+// $Id: thinkpython2.md,v 1.18 2021/08/08 23:18:48 heiko Exp heiko $
 //
 // $Log: thinkpython2.md,v $
+// Revision 1.18  2021/08/08 23:18:48  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.17  2021/08/08 23:09:08  heiko
 // R1D78: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -212,7 +220,7 @@ The goal of this book is to teach you to think like a computer scientist. This w
 thinking combines some of the best features of mathematics, engineering, and natural
 science. Like mathematicians, computer scientists use formal languages to denote ideas
 (specifically computations). Like engineers, they design things, assembling components
-into systems and evaluating tradeoffs among alternatives.  Like scientists, they
+into systems and evaluating tradeoffs among alternatives. Like scientists, they
 observe the behavior of complex systems, form hypotheses, and test predictions.
 
 The single most important skill for a computer scientist is **problem solving**. Problem
@@ -451,7 +459,7 @@ syntactically correct mathematical statement, but 3+ = 3$6 is not. *H&#x2082;O* 
 syntactically correct chemical formula, but *&#x2082;Zz* is not.
 
 Syntax rules come in two flavors, pertaining to **tokens** and structure. Tokens are the
-basic elements of the language, such as words, numbers, and chemical elements.  One of
+basic elements of the language, such as words, numbers, and chemical elements. One of
 the problems with 3+ = 3$6 is that *$* is not a legal token in mathematics (at least
 as far as I know). Similarly, *&#x2082;Zz* is not legal because there is no element with the
 abbreviation *Zz*.
@@ -467,7 +475,7 @@ do this subconsciously). This process is called **parsing**.
 
 For example, when you hear the sentence, "The penny dropped," you understand that "the
 penny" is the subject and "dropped" is the predicate. Once you have parsed a sentence,
-you can figure out what it means, or the semantics of the sentence.  Assuming that you
+you can figure out what it means, or the semantics of the sentence. Assuming that you
 know what a penny is and what it means to drop, you will understand the general
 implication of this sentence.
 
@@ -517,6 +525,27 @@ program in your head, identifying the tokens and interpreting the structure. Fin
 the details matter. Small errors in *spelling* and *punctuation*, which you can get away
 with in natural languages, can make a big difference in a formal language.
 
+@
+
+
+1.18
+log
+@R1D78: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 1.17 2021/08/08 23:09:08 heiko Exp heiko $
+d5 3
+d110 1
+a110 1
+into systems and evaluating tradeoffs among alternatives.  Like scientists, they
+d349 1
+a349 1
+basic elements of the language, such as words, numbers, and chemical elements.  One of
+d365 1
+a365 1
+you can figure out what it means, or the semantics of the sentence.  Assuming that you
 @
 
 
