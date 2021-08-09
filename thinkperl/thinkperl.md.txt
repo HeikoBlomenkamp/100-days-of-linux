@@ -1,7 +1,13 @@
 ```
-// $Id: thinkperl.md,v 1.10 2021/08/06 01:10:38 heiko Exp $
+// $Id: thinkperl.md,v 1.12 2021/08/08 23:41:41 heiko Exp $
 //
 // $Log: thinkperl.md,v $
+// Revision 1.12  2021/08/08 23:41:41  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
+// Revision 1.11  2021/08/08 22:17:22  heiko
+// R1D78: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.10  2021/08/06 01:10:38  heiko
 // R1D75: Added Section 1.4 (Formal and natural languages).
 //
@@ -82,12 +88,11 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 ## 1\. The way of the program
 
 The goal of this book is to teach you to think like a computer scientist. This way of
-thinking combines some of the best features of mathematics, engineering, and
-natural science. Like mathematicians, computer scientists use formal languages to
-denote ideas (specifically computations). Like engineers, they design things,
-assembling components into systems and evaluating tradeoffs among alternatives.
-Like scientists, they observe the behavior of complex systems, form hypotheses, and
-test predictions.
+thinking combines some of the best features of mathematics, engineering, and natural
+science. Like mathematicians, computer scientists use formal languages to denote ideas
+(specifically computations). Like engineers, they design things, assembling components
+into systems and evaluating tradeoffs among alternatives.  Like scientists, they
+observe the behavior of complex systems, form hypotheses, and test predictions.
 
 The single most important skill for a computer scientist is **problem solving**. Problem
 solving means the ability to formulate problems, think creatively about solutions, and
@@ -95,37 +100,37 @@ express a solution clearly and accurately. As it turns out, the process of learn
 program is an excellent opportunity to practice problem-solving skills. That's why
 this chapter is called, "The way of the program."
 
-On one level, you will be learning to program, a useful skill by itself. On another level,
-you will use programming as a means to an end. As we go along, that end will
+On one level, you will be learning to program, a useful skill by itself. On another
+level, you will use programming as a means to an end. As we go along, that end will
 become clearer.
 
 
 
 ### 1\.1 The Perl programming language
 
-The programming language you will learn is Perl. Perl is an example of a **high-level
-language**; other high-level languages you might have heard of are C, C++, Python,
-and Java.
+The programming language you will learn is Perl. Perl is an example of a
+**high-level language**; other high-level languages you might have heard of are C, C++,
+Python, and Java.
 
-There are also **low-level languages**, sometimes referred to as "machine languages"
-or "assembly languages." Loosely speaking, computers can only run programs
-written in low-level languages. So programs written in a high-level language have to
-be processed before they can run. This extra processing takes some time, which is a
-small disadvantage of high-level languages.
+There are also **low-level languages**, sometimes referred to as "machine languages" or
+"assembly languages." Loosely speaking, computers can only run programs written in
+low-level languages. So programs written in a high-level language have to be processed
+before they can run. This extra processing takes some time, which is a small
+disadvantage of high-level languages.
 
 The advantages are enormous. First, it is much easier to program in a high-level
 language. Programs written in a high-level language take less time to write, they are
 shorter and easier to read, and they are more likely to be correct. Second, high-level
-languages are **portable**, meaning that they can run on different kinds of computers
-with few or no modifications. Low-level programs can run on only one kind of
-computer and have to be rewritten to run on another.
+languages are **portable**, meaning that they can run on different kinds of computers with
+few or no modifications. Low-level programs can run on only one kind of computer and
+have to be rewritten to run on another.
 
 Due to these advantages, almost all programs are written in high-level languages.
 Low-level languages are used only for a few specialized applications.
 
 Two kinds of programs process high-level languages into low-level languages:
-**interpreters** and **compilers**. An interpreter reads a high-level program and executes
-it, meaning that it does what the program says. It processes the program a little at a
+**interpreters** and **compilers**. An interpreter reads a high-level program and executes it,
+meaning that it does what the program says. It processes the program a little at a
 time, alternately reading lines and performing computations. Figure 1.1 shows the
 structure of an interpreter.
 
@@ -138,8 +143,8 @@ alternately reading lines and performing computations.**
 A compiler reads the program and translates it completely before the program starts
 running. In this context, the high-level program is called the **source code**, and the
 translated program is called the **object code** or the **executable**. Once a program is
-compiled, you can execute it repeatedly without further translation. Figure 1.2 shows
-the structure of a compiler.
+compiled, you can execute it repeatedly without further translation. Figure 1.2
+shows the structure of a compiler.
 
 **Figure 1.2**
 : **A compiler translates source code into object code,
@@ -148,8 +153,8 @@ which is run by a hardware executor.**
 &#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
 
 Perl is considered an interpreted language because Perl programs are executed by an
-interpreter. There are two ways to use the interpreter: **debug mode** and **script mode**.
-In debug mode, you type Perl programs and the interpreter displays the result:
+interpreter. There are two ways to use the interpreter: **debug mode** and **script mode**. In
+debug mode, you type Perl programs and the interpreter displays the result:
 
 ```
 __DB<1>_print 1 + 1
@@ -160,28 +165,28 @@ The expression `__DB<1>_` is the **prompt** the interpreter uses to indicate tha
 ready. If you type `print 1 + 1` , the interpreter replies `2` .
 
 Alternatively, you can store code in a file and use the interpreter to execute the
-contents of the file, which is called a **script**. By convention, Perl scripts have names
-that end with `.pl` .
+contents of the file, which is called a **script**. By convention, Perl scripts have
+names that end with `.pl` .
 
-To execute the script, you have to tell the interpreter the name of the file. If you have
-a script named `dinsdale.pl` and you are working in a \*NIX command window, you
-type `perl dinsdale.pl` . In other development environments, the details of executing
+To execute the script, you have to tell the interpreter the name of the file. If you
+have a script named `dinsdale.pl` and you are working in a \*NIX command window, you type
+`perl dinsdale.pl` . In other development environments, the details of executing
 scripts are different. You can find instructions for your environment at the Perl
 website `http://perl.org` .
 
-Working in debug mode is convenient for testing small pieces of code because you can
-type and execute them immediately. But for anything more than a few lines, you should
-save your code as a script so you can modify and execute it in the future.
+Working in debug mode is convenient for testing small pieces of code because you
+can type and execute them immediately. But for anything more than a few lines, you
+should save your code as a script so you can modify and execute it in the future.
 
 
 
 ### 1\.2 What is a program?
 
-A **program** is a sequence of instructions that specifies how to perform a
-computation. The computation might be something mathematical, such as solving a
-system of equations or finding the roots of a polynomial, but it can also be a
-symbolic computation, such as searching and replacing text in a document or
-(strangely enough) compiling a program.
+A **program** is a sequence of instructions that specifies how to perform a computation.
+The computation might be something mathematical, such as solving a system of equations
+or finding the roots of a polynomial, but it can also be a symbolic computation, such
+as searching and replacing text in a document or (strangely enough) compiling a
+program.
 
 The details look different in different languages, but a few basic instructions appear
 in just about every language:
@@ -201,8 +206,8 @@ conditional execution:
 repetition:
 : Perform some action repeatedly, usually with some variation.
 
-Believe it or not, that's pretty much all there is to it. Every program you've ever used,
-no matter how complicated, is made up of instructions that look pretty much like
+Believe it or not, that's pretty much all there is to it. Every program you've ever
+used, no matter how complicated, is made up of instructions that look pretty much like
 these. So you can think of programming as the process of breaking a large, complex
 task into smaller and smaller subtasks until the subtasks are simple enough to be
 performed with one of these basic instructions.
@@ -214,8 +219,8 @@ That may be a little vague, but we will come back to this topic when we talk abo
 
 ### 1\.3 What is debugging?
 
-Programming is error-prone. For whimsical reasons, programming errors are called
-**bugs** and the process of tracking them down is called **debugging**.
+Programming is error-prone. For whimsical reasons, programming errors are called **bugs**
+and the process of tracking them down is called **debugging**.
 
 Three kinds of errors can occur in a program: syntax errors, runtime errors, and
 semantic errors. It is useful to distinguish between them in order to track them down
@@ -232,11 +237,11 @@ come in matching pairs; so `(4 + 5) * 10` is legal, but `8)` is a **syntax error
 
 In English, readers can tolerate most syntax errors, which is why we can read the
 poetry of e e cummings without spewing error messages. Perl is not so forgiving.
-If there is a single syntax error anywhere in your program, Perl will display an error
-message and quit, and you will not be able to run your program. During the first few
-weeks of your programming career, you will probably spend a lot of time tracking
-down syntax errors. As you gain experience, you will make fewer errors and find
-them faster.
+If there is a single syntax error anywhere in your program, Perl will display an
+error message and quit, and you will not be able to run your program. During the first
+few weeks of your programming career, you will probably spend a lot of time tracking
+down syntax errors. As you gain experience, you will make fewer errors and find them
+faster.
 
 
 
@@ -259,10 +264,10 @@ program, it will run successfully in the sense that the computer will not genera
 error messages, but it will not do the right thing. It will do something else.
 Specifically, it will do what you told it to do.
 
-The problem is that the program you wrote is not the program you wanted to write.
-The meaning of the program (its semantics) is wrong. Identifying semantic errors
-can be tricky because it requires you to work backward by looking at the output of
-the program and trying to figure out what it is doing.
+The problem is that the program you wrote is not the program you wanted to write. The
+meaning of the program (its semantics) is wrong. Identifying semantic errors can be
+tricky because it requires you to work backward by looking at the output of the
+program and trying to figure out what it is doing.
 
 
 
@@ -272,24 +277,23 @@ One of the most important skills you will acquire is debugging. Although it can 
 frustrating, debugging is one of the most intellectually rich, challenging, and
 interesting parts of programming.
 
-In some ways, debugging is like detective work. You are confronted with clues, and
-you have to infer the processes and events that led to the results you see.
+In some ways, debugging is like detective work. You are confronted with clues, and you
+have to infer the processes and events that led to the results you see.
 
 Debugging is also like an experimental science. Once you have an idea about what is
 going wrong, you modify your program and try again. If your hypothesis was correct,
 then you can predict the result of the modification, and you take a step closer to a
-working program. If your hypothesis was wrong, you have to come up with a new
-one. As Sherlock Holmes pointed out,
+working program. If your hypothesis was wrong, you have to come up with a new one. As
+Sherlock Holmes pointed out,
 
 > "When you have eliminated the impossible, whatever
 > remains, however improbable, must be the truth."
 > ---A. Conan Doyle, The Sign of Four
 
-For some people, programming and debugging are the same thing. That is,
-programming is the process of gradually debugging a program until it does what you
-want. The idea is that you should start with a program that does *something* and
-make small modifications, debugging them as you go, so that you always have a
-working program.
+For some people, programming and debugging are the same thing. That is, programming is
+the process of gradually debugging a program until it does what you want. The idea is
+that you should start with a program that does *something* and make small modifications,
+debugging them as you go, so that you always have a working program.
 
 For example, Linux is an operating system that contains thousands of lines of code,
 but it started out as a simple program Linus Torvalds used to explore the Intel 80386
@@ -300,22 +304,22 @@ chip. According to Larry Greenfield,
 > to Linux."
 > ---The Linux Users' Guide, Beta Version 1
 
-Later chapters will make more suggestions about debugging and other
-programming practices.
+Later chapters will make more suggestions about debugging and other programming
+practices.
 
 
 
 ### 1\.4 Formal and natural languages
 
 **Natural languages** are the languages people speak, such as English, Spanish, and
-French. They were not designed by people (although people try to impose some
-order on them); they evolved naturally.
+French. They were not designed by people (although people try to impose some order on
+them); they evolved naturally.
 
-**Formal languages** are languages that are designed by people for specific
-applications. For example, the notation that mathematicians use is a formal
-language that is particularly good at denoting relationships among numbers and
-symbols. Chemists use a formal language to represent the chemical structure of
-molecules. And most importantly:
+**Formal languages** are languages that are designed by people for specific applications.
+For example, the notation that mathematicians use is a formal language that is
+particularly good at denoting relationships among numbers and symbols. Chemists use a
+formal language to represent the chemical structure of molecules. And most
+importantly:
 
 &#x00A0; &#x00A0; &#x00A0;**Programming languages are formal languages that have been designed**
 &#x00A0; &#x00A0; &#x00A0;**to express computations.** 
@@ -325,34 +329,34 @@ syntactically correct mathematical statement, but 3+ = 3$6 is not. *H&#x2082;O* 
 syntactically correct chemical formula, but *&#x2082;Zz* is not.
 
 Syntax rules come in two flavors, pertaining to **tokens** and structure. Tokens are the
-basic elements of the language, such as words, numbers, and chemical elements.
-One of the problems with 3+ = 3$6 is that *$* is not a legal token in mathematics (at
-least as far as I know). Similarly, *&#x2082;Zz* is not legal because there is no element with
-the abbreviation *Zz*.
+basic elements of the language, such as words, numbers, and chemical elements.  One of
+the problems with 3+ = 3$6 is that *$* is not a legal token in mathematics (at least
+as far as I know). Similarly, *&#x2082;Zz* is not legal because there is no element with the
+abbreviation *Zz*.
 
 The second type of syntax rule pertains to the **structure of a statement**; that is, the
-way the tokens are arranged. The statement 3+ = 3 is illegal because even though + and
-= are legal tokens, you can't have one right after the other. Similarly, in a
+way the tokens are arranged. The statement 3+ = 3 is illegal because even though +
+and = are legal tokens, you can't have one right after the other. Similarly, in a
 chemical formula the subscript comes after the element name, not before.
 
-When you read a sentence in English or a statement in a formal language, you have
-to figure out what the structure of the sentence is (although in a natural language
-you do this subconsciously). This process is called **parsing**.
+When you read a sentence in English or a statement in a formal language, you have to
+figure out what the structure of the sentence is (although in a natural language you
+do this subconsciously). This process is called **parsing**.
 
-For example, when you hear the sentence, "The penny dropped," you understand that
-"the penny" is the subject and "dropped" is the predicate. Once you have parsed a
-sentence, you can figure out what it means, or the semantics of the sentence.
-Assuming that you know what a penny is and what it means to drop, you will
-understand the general implication of this sentence.
+For example, when you hear the sentence, "The penny dropped," you understand that "the
+penny" is the subject and "dropped" is the predicate. Once you have parsed a sentence,
+you can figure out what it means, or the semantics of the sentence.  Assuming that you
+know what a penny is and what it means to drop, you will understand the general
+implication of this sentence.
 
-Although formal and natural languages have many features in common---tokens,
-structure, syntax, and semantics---there are some differences:
+Although formal and natural languages have many features in common---tokens, structure,
+syntax, and semantics---there are some differences:
 
 ambiguity:
 : Natural languages are full of ambiguity, which people deal with by using
 contextual clues and other information. Formal languages are designed to be
-nearly or completely unambiguous, which means that any statement has
-exactly one meaning, regardless of context.
+nearly or completely unambiguous, which means that any statement has exactly
+one meaning, regardless of context.
 
 redundancy:
 : In order to make up for ambiguity and reduce misunderstandings, natural
@@ -360,14 +364,14 @@ languages employ lots of redundancy. As a result, they are often verbose.
 Formal languages are less redundant and more concise.
 
 literalness:
-: Natural languages are full of idiom and metaphor. If I say, "The penny dropped,"
-there is probably no penny and nothing dropping (this idiom means that
-someone realized something after a period of confusion). Formal languages
+: Natural languages are full of idiom and metaphor. If I say, "The penny
+dropped," there is probably no penny and nothing dropping (this idiom means
+that someone realized something after a period of confusion). Formal languages
 mean exactly what they say.
 
 People who grow up speaking a natural language---everyone---often have a hard time
-adjusting to formal languages. In some ways, the difference between formal and
-natural language is like the difference between poetry and prose, but more so:
+adjusting to formal languages. In some ways, the difference between formal and natural
+language is like the difference between poetry and prose, but more so:
 
 Poetry:
 : Words are used for their sounds as well as for their meaning, and the whole
@@ -383,11 +387,11 @@ Programs:
 : The meaning of a computer program is unambiguous and literal, and can be
 understood entirely by analysis of the tokens and structure.
 
-Here are some suggestions for reading programs (and other formal languages).
-First, remember that formal languages are *much more dense* than natural
-languages, so it takes longer to read them. Also, the structure is very important, so it
-is usually not a good idea to read from top to bottom, left to right. Instead, *learn to
-parse* the program in your head, identifying the tokens and interpreting the structure.
-Finally, the details matter. Small errors in *spelling* and *punctuation*, which you can get
-away with in natural languages, can make a big difference in a formal language.
+Here are some suggestions for reading programs (and other formal languages). First,
+remember that formal languages are *much more dense* than natural languages, so it takes
+longer to read them. Also, the structure is very important, so it is usually not a
+good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+program in your head, identifying the tokens and interpreting the structure. Finally,
+the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+with in natural languages, can make a big difference in a formal language.
 
