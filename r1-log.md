@@ -134,3 +134,6 @@ thinklua.md: Added the last part of Section 1.4 (Formal and natural languages); 
 thinkpython2.md: Modified columns per line, so that the online HTML file is comparable to the “lynx -dump -width=95” of the original HTML. 
 
 ### R1D78
+thinkperl.md: Modified some columns per line, so that the online HTML file is comparable to a “lynx -dump -width=95” of the original HTML. 
+
+### R1D79
