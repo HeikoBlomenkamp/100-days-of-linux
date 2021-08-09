@@ -1,7 +1,10 @@
 
-// $Id: thinkpython2.md,v 1.18 2021/08/08 23:18:48 heiko Exp $
+// $Id: thinkpython2.md,v 1.19 2021/08/09 23:04:32 heiko Exp $
 //
 // $Log: thinkpython2.md,v $
+// Revision 1.19  2021/08/09 23:04:32  heiko
+// R1D79: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.18  2021/08/08 23:18:48  heiko
 // R1D78: Modified columns per line (lynx dump: 95 cpl).
 //
