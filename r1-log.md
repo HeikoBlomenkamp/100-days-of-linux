@@ -137,3 +137,6 @@ thinkpython2.md: Modified columns per line, so that the online HTML file is comp
 thinkperl.md: Modified some columns per line, so that the online HTML file is comparable to a “lynx -dump -width=95” of the original HTML. 
 
 ### R1D79
+thinklua.md: Modified some columns per line, so that the online HTML file is comparable to my “lynx -dump -width=95” of the original HTML. 
+
+### R1D80
