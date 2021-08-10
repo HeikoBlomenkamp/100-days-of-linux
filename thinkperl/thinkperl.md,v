@@ -1,9 +1,14 @@
-head	1.13;
+head	1.14;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.14
+date	2021.08.10.00.17.44;	author heiko;	state Exp;
+branches;
+next	1.13;
 
 1.13
 date	2021.08.09.23.03.29;	author heiko;	state Exp;
@@ -76,15 +81,18 @@ desc
 @
 
 
-1.13
+1.14
 log
-@R1D79: Modified columns per line (lynx dump: 95 cpl).
+@R1D79: Replaced debug mode with interactive mode.
 @
 text
 @```
-// $Id: thinkperl.md,v 1.12 2021/08/08 23:41:41 heiko Exp heiko $
+// $Id: thinkperl.md,v 1.13 2021/08/09 23:03:29 heiko Exp heiko $
 //
 // $Log: thinkperl.md,v $
+// Revision 1.13  2021/08/09 23:03:29  heiko
+// R1D79: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.12  2021/08/08 23:41:41  heiko
 // R1D78: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -164,6 +172,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 ## Preface
 
 [postponed]
+[here: debug mode = interactive mode]
 `[perl -de1]`
 
 
@@ -235,9 +244,10 @@ which is run by a hardware executor.**
 
 &#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
 
-Perl is considered an interpreted language because Perl programs are executed by an
-interpreter. There are two ways to use the interpreter: **debug mode** and **script mode**. In
-debug mode, you type Perl programs and the interpreter displays the result:
+Perl is considered an interpreted language because Perl programs are executed by
+an interpreter. There are two ways to use the interpreter: **interactive mode** and **script
+mode**. In interactive mode, you type Perl programs and the interpreter displays the
+result:
 
 ```
 __DB<1>_print 1 + 1
@@ -257,7 +267,7 @@ have a script named `dinsdale.pl` and you are working in a \*NIX command window,
 scripts are different. You can find instructions for your environment at the Perl
 website `http://perl.org` .
 
-Working in debug mode is convenient for testing small pieces of code because you
+Working in interactive mode is convenient for testing small pieces of code because you
 can type and execute them immediately. But for anything more than a few lines, you
 should save your code as a script so you can modify and execute it in the future.
 
@@ -478,6 +488,27 @@ program in your head, identifying the tokens and interpreting the structure. Fin
 the details matter. Small errors in *spelling* and *punctuation*, which you can get away
 with in natural languages, can make a big difference in a formal language.
 
+@
+
+
+1.13
+log
+@R1D79: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkperl.md,v 1.12 2021/08/08 23:41:41 heiko Exp heiko $
+d5 3
+d87 1
+d159 4
+a162 3
+Perl is considered an interpreted language because Perl programs are executed by an
+interpreter. There are two ways to use the interpreter: **debug mode** and **script mode**. In
+debug mode, you type Perl programs and the interpreter displays the result:
+d182 1
+a182 1
+Working in debug mode is convenient for testing small pieces of code because you
 @
 
 
