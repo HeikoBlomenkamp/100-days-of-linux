@@ -1,9 +1,14 @@
-head	1.1;
+head	1.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.2
+date	2021.06.24.21.59.27;	author heiko;	state Exp;
+branches;
+next	1.1;
 
 1.1
 date	2021.05.29.22.25.27;	author heiko;	state Exp;
@@ -16,16 +21,19 @@ desc
 @
 
 
-1.1
+1.2
 log
-@Initial revision
+@R1D32: Added Section 1.4 (Formal and natural languages).
 @
 text
 @#!/bin/bash
 
-# $Id$
+# $Id: dillinger-to-http.sh,v 1.1 2021/05/29 22:25:27 heiko Exp heiko $
 #
-# $Log$
+# $Log: dillinger-to-http.sh,v $
+# Revision 1.1  2021/05/29 22:25:27  heiko
+# Initial revision
+#
 
 # Print short help message
 if [ -z $2 ]
@@ -39,7 +47,8 @@ HEADINGS=('Preface' \
 '1_The_way_of_the_program' \
 '11_The_KSH_programming_language' \
 '12_What_is_a_program' \
-'13_What_is_debugging')
+'13_What_is_debugging' \
+'14_Formal_and_natural_languages')
 
 # Keep original file
 cp -ua $1 $2
@@ -58,4 +67,20 @@ do
 done
 
 exit 0
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 5
+a7 1
+# $Id$
+a8 1
+# $Log$
+d22 2
+a23 1
+'13_What_is_debugging')
 @
