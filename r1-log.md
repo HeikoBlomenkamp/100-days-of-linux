@@ -139,4 +139,8 @@ thinkperl.md: Modified some columns per line, so that the online HTML file is co
 ### R1D79
 thinklua.md: Modified some columns per line, so that the online HTML file is comparable to my “lynx -dump -width=95” of the original HTML. 
 
-### R1D80
+### R1D80 to R1D90
+Break.
+
+### R1D91
+thinkksh.md: Modified some columns per line, so that the online HTML file is comparable to my “lynx -dump -width=95” of the original HTML. 
