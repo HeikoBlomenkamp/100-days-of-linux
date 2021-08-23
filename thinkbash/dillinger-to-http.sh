@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.3 2021/05/28 22:43:29 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.4 2021/06/25 18:10:19 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.4  2021/06/25 18:10:19  heiko
+# R1D33: Added Section 1.4 (Formal and natural languages).
+#
 # Revision 1.3  2021/05/28 22:43:29  heiko
 # R1D6: Added Section 1.3 (What is debugging?).
 #
@@ -25,7 +28,8 @@ HEADINGS=('Preface' \
 '1_The_way_of_the_program' \
 '11_The_Bash_programming_language' \
 '12_What_is_a_program' \
-'13_What_is_debugging')
+'13_What_is_debugging' \
+'14_Formal_and_natural_languages')
 
 # Keep original file
 cp -ua $1 $2
