@@ -144,3 +144,11 @@ Break.
 
 ### R1D91
 thinkksh.md: Modified some columns per line, so that the online HTML file is comparable to my “lynx -dump -width=95” of the original HTML. 
+
+### R1D92
+Break.
+
+### R1D93
+thinkbash.md: Modified some columns per line, so that the online HTML file is comparable to a “lynx -dump -width=95” of the original HTML. 
+
+### R1D94
