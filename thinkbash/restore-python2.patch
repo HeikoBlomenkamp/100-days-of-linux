@@ -1,98 +1,102 @@
---- thinkbash.md	2021-08-23 18:49:15.013647860 +0200
+--- thinkbash.md	2021-09-01 06:16:30.605799384 +0200
 +++ ../python2/thinkpython2.md	2021-08-10 01:05:19.571150617 +0200
-@@ -1,44 +1,62 @@
+@@ -1,58 +1,72 @@
  ```
--// $Id: thinkbash.md,v 1.13 2021/08/23 16:48:17 heiko Exp $
+-// $Id: thinkbash.md,v 2.1 2021/09/01 04:15:24 heiko Exp $
 +// $Id: thinkpython2.md,v 1.19 2021/08/09 23:04:32 heiko Exp $
  //
 -// $Log: thinkbash.md,v $
--// Revision 1.13  2021/08/23 16:48:17  heiko
--// R1D93: Modified columns per line (lynx dump: 95 cpl).
+-// Revision 2.1  2021/09/01 04:15:24  heiko
+-// R2D2: Added Section 1.4 (Formal and natural languages).
 +// $Log: thinkpython2.md,v $
 +// Revision 1.19  2021/08/09 23:04:32  heiko
 +// R1D79: Modified columns per line (lynx dump: 95 cpl).
  //
--// Revision 1.12  2021/08/23 16:41:57  heiko
+-// Revision 1.13  2021/08/23 16:48:17  heiko
 -// R1D93: Modified columns per line (lynx dump: 95 cpl).
 +// Revision 1.18  2021/08/08 23:18:48  heiko
 +// R1D78: Modified columns per line (lynx dump: 95 cpl).
  //
+-// Revision 1.12  2021/08/23 16:41:57  heiko
+-// R1D93: Modified columns per line (lynx dump: 95 cpl).
++// Revision 1.17  2021/08/08 23:09:08  heiko
++// R1D78: Modified columns per line (lynx dump: 95 cpl).
+ //
 -// Revision 1.11  2021/06/18 23:28:22  heiko
 -// R1D27: Added Section 1.3.4 (Experimental debugging).
-+// Revision 1.17  2021/08/08 23:09:08  heiko
++// Revision 1.16  2021/08/08 22:15:53  heiko
 +// R1D78: Modified columns per line (lynx dump: 95 cpl).
  //
 -// Revision 1.10  2021/06/14 00:04:18  heiko
 -// R1D22: Added Section 1.3.3 (Semantic errors).
-+// Revision 1.16  2021/08/08 22:15:53  heiko
++// Revision 1.15  2021/08/08 21:23:00  heiko
 +// R1D78: Modified columns per line (lynx dump: 95 cpl).
  //
 -// Revision 1.9  2021/06/09 00:28:53  heiko
 -// R1D17: Added Section 1.3.2 (Runtime errors).
-+// Revision 1.15  2021/08/08 21:23:00  heiko
++// Revision 1.14  2021/08/08 21:13:54  heiko
 +// R1D78: Modified columns per line (lynx dump: 95 cpl).
  //
 -// Revision 1.8  2021/05/31 12:40:51  heiko
 -// R1D9: Added missing link.
-+// Revision 1.14  2021/08/08 21:13:54  heiko
-+// R1D78: Modified columns per line (lynx dump: 95 cpl).
- //
--// Revision 1.7  2021/05/31 12:21:23  heiko
--// R1D9: Finished Section 1.3 (What is debugging?).
 +// Revision 1.13  2021/08/07 22:53:20  heiko
 +// R1D77: Modified columns per line (lynx dump: 95 cpl).
  //
--// Revision 1.6  2021/05/28 18:35:30  heiko
--// R1D6: Added Section 1.3.1 (Syntax errors).
+-// Revision 1.7  2021/05/31 12:21:23  heiko
+-// R1D9: Finished Section 1.3 (What is debugging?).
 +// Revision 1.12  2021/08/05 00:58:40  heiko
 +// R1D74: Added Section 1.4 (Formal and natural languages).
-+//
+ //
+-// Revision 1.6  2021/05/28 18:35:30  heiko
+-// R1D6: Added Section 1.3.1 (Syntax errors).
 +// Revision 1.11  2021/06/15 01:06:13  heiko
 +// R1D23: Added Section 1.3.4 (Experimental debugging).
 +//
 +// Revision 1.10  2021/06/09 17:52:37  heiko
 +// R1D18: Added Section 1.3.3 (Semantic errors).
- //
--// Revision 1.5  2021/05/27 13:03:22  heiko
--// R1D5: Added Section 1.2 (What is a program?).
++//
 +// Revision 1.9  2021/06/05 17:58:14  heiko
 +// R1D14: Added Section 1.3.2 (Runtime errors).
- //
--// Revision 1.4  2021/05/25 12:53:22  heiko
--// R1D3: Replaced debug mode with shell mode.
++//
 +// Revision 1.8  2021/06/04 21:59:09  heiko
 +// R1D13: Modified the structure of Section 1.3.1 (Syntax errors).
  //
--// Revision 1.3  2021/05/25 12:16:24  heiko
--// R1D3: Added some copyright information.
+-// Revision 1.5  2021/05/27 13:03:22  heiko
+-// R1D5: Added Section 1.2 (What is a program?).
 +// Revision 1.7  2021/06/02 20:22:52  heiko
 +// R1D11: Modified the alt attributes of two images.
  //
--// Revision 1.2  2021/05/25 11:52:37  heiko
--// R1D3: Finished Section 1.1 (The Bash programming language).
+-// Revision 1.4  2021/05/25 12:53:22  heiko
+-// R1D3: Replaced debug mode with shell mode.
 +// Revision 1.6  2021/06/01 06:54:26  heiko
 +// R1D10: Finished Section 1.4 (Formal and natural languages).
- //
--// Revision 1.1  2021/05/23 16:10:34  heiko
++//
 +// Revision 1.5  2021/05/30 14:04:29  heiko
 +// R1D8: Finished Section 1.3 (What is debugging?).
 +//
 +// Revision 1.4  2021/05/28 12:07:58  heiko
 +// R1D6: Added Section 1.3.1 (Syntax errors).
-+//
+ //
+-// Revision 1.3  2021/05/25 12:16:24  heiko
+-// R1D3: Added some copyright information.
 +// Revision 1.3  2021/05/26 18:12:08  heiko
 +// R1D4: Finished Section 1.2 (What is a program?).
-+//
+ //
+-// Revision 1.2  2021/05/25 11:52:37  heiko
+-// R1D3: Finished Section 1.1 (The Bash programming language).
 +// Revision 1.2  2021/05/23 19:11:26  heiko
 +// R1D1: Finished Section 1.1 (The Python programming language).
-+//
+ //
+-// Revision 1.1  2021/05/23 16:10:34  heiko
 +// Revision 1.1  2021/05/23 16:07:38  heiko
  // Initial revision
  //
  ```
-@@ -47,9 +65,8 @@
  
- [\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
+ 
+ 
+-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 2--100
++[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
  
 -**Markdown Version of "Think Bash"**
 +**Markdown Version of "Think Python First Edition"**
@@ -101,7 +105,7 @@
  Think Python First Edition is available at https://greenteapress.com/wp/think-python/.
  Styled HTML generated by [Dillinger](https://dillinger.io).
  
-@@ -58,13 +75,12 @@
+@@ -61,13 +75,12 @@
  
  
  
@@ -119,7 +123,7 @@
  
  Permission is granted to copy, distribute, and/or modify this work under the terms of
  the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
-@@ -74,7 +90,7 @@
+@@ -77,7 +90,7 @@
  
  - [Preface](#Preface)
  - [The way of the program](#1_The_way_of_the_program)
@@ -128,7 +132,7 @@
      - [What is a program?](#12_What_is_a_program)
      - [What is debugging?](#13_What_is_debugging)
      - [Formal and natural languages](#14_Formal_and_natural_languages)
-@@ -84,7 +100,7 @@
+@@ -87,7 +100,7 @@
  ## Preface
  
  [postponed]
@@ -137,7 +141,7 @@
  
  
  
-@@ -109,11 +125,11 @@
+@@ -112,11 +125,11 @@
  
  
  
@@ -152,7 +156,7 @@
  
  There are also **low-level languages**, sometimes referred to as "machine languages" or
  "assembly languages." Loosely speaking, computers can only run programs written in
-@@ -155,28 +171,28 @@
+@@ -158,28 +171,28 @@
  
  &#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
  
@@ -192,7 +196,7 @@
  
  Working in interactive mode is convenient for testing small pieces of code because you
  can type and execute them immediately. But for anything more than a few lines, you
-@@ -234,14 +250,14 @@
+@@ -237,14 +250,14 @@
  
  #### 1\.3\.1 Syntax errors
  
@@ -210,33 +214,3 @@
  error message and quit, and you will not be able to run your program. During the first
  few weeks of your programming career, you will probably spend a lot of time tracking
  down syntax errors. As you gain experience, you will make fewer errors and find them
-@@ -373,3 +389,29 @@
- that someone realized something after a period of confusion). Formal languages
- mean exactly what they say.
- 
-+People who grow up speaking a natural language---everyone---often have a hard time
-+adjusting to formal languages. In some ways, the difference between formal and natural
-+language is like the difference between poetry and prose, but more so:
-+
-+Poetry:
-+: Words are used for their sounds as well as for their meaning, and the whole
-+poem together creates an effect or emotional response. Ambiguity is not only
-+common but often deliberate.
-+
-+Prose:
-+: The literal meaning of words is more important, and the structure contributes
-+more meaning. Prose is more amenable to analysis than poetry but still often
-+ambiguous.
-+
-+Programs:
-+: The meaning of a computer program is unambiguous and literal, and can be
-+understood entirely by analysis of the tokens and structure.
-+
-+Here are some suggestions for reading programs (and other formal languages). First,
-+remember that formal languages are *much more dense* than natural languages, so it takes
-+longer to read them. Also, the structure is very important, so it is usually not a
-+good idea to read from top to bottom, left to right. Instead, *learn to parse* the
-+program in your head, identifying the tokens and interpreting the structure. Finally,
-+the details matter. Small errors in *spelling* and *punctuation*, which you can get away
-+with in natural languages, can make a big difference in a formal language.
-+
