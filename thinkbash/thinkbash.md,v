@@ -1,9 +1,14 @@
-head	1.13;
+head	2.1;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.1
+date	2021.09.01.04.15.24;	author heiko;	state Exp;
+branches;
+next	1.13;
 
 1.13
 date	2021.08.23.16.48.17;	author heiko;	state Exp;
@@ -76,15 +81,18 @@ desc
 @
 
 
-1.13
+2.1
 log
-@R1D93: Modified columns per line (lynx dump: 95 cpl).
+@R2D2: Added Section 1.4 (Formal and natural languages).
 @
 text
 @```
-// $Id: thinkbash.md,v 1.12 2021/08/23 16:41:57 heiko Exp heiko $
+// $Id: thinkbash.md,v 1.13 2021/08/23 16:48:17 heiko Exp heiko $
 //
 // $Log: thinkbash.md,v $
+// Revision 1.13  2021/08/23 16:48:17  heiko
+// R1D93: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.12  2021/08/23 16:41:57  heiko
 // R1D93: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -125,7 +133,7 @@ text
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 2--100
 
 **Markdown Version of "Think Bash"**
 
@@ -453,6 +461,48 @@ dropped," there is probably no penny and nothing dropping (this idiom means
 that someone realized something after a period of confusion). Formal languages
 mean exactly what they say.
 
+People who grow up speaking a natural language---everyone---often have a hard time
+adjusting to formal languages. In some ways, the difference between formal and natural
+language is like the difference between poetry and prose, but more so:
+
+Poetry:
+: Words are used for their sounds as well as for their meaning, and the whole
+poem together creates an effect or emotional response. Ambiguity is not only
+common but often deliberate.
+
+Prose:
+: The literal meaning of words is more important, and the structure contributes
+more meaning. Prose is more amenable to analysis than poetry but still often
+ambiguous.
+
+Programs:
+: The meaning of a computer program is unambiguous and literal, and can be
+understood entirely by analysis of the tokens and structure.
+
+Here are some suggestions for reading programs (and other formal languages). First,
+remember that formal languages are *much more dense* than natural languages, so it takes
+longer to read them. Also, the structure is very important, so it is usually not a
+good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+program in your head, identifying the tokens and interpreting the structure. Finally,
+the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+with in natural languages, can make a big difference in a formal language.
+
+@
+
+
+1.13
+log
+@R1D93: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkbash.md,v 1.12 2021/08/23 16:41:57 heiko Exp heiko $
+d5 3
+d48 1
+a48 1
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
+d375 26
 @
 
 
