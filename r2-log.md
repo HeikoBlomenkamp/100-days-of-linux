@@ -11,3 +11,6 @@ thinkksh.md: Added the last part of Section 1.4 (Formal and natural languages); 
 thinkbash.md: Added the last part of Section 1.4 (Formal and natural languages); upload to my HTTP server, also to this GitHub repository.
 
 ### R2D3
+thinkpython2.md: Prepared Section 1.5 (The first program); compared paperback edition with online edition; no mention of Python 3 version.
+
+### R2D4
