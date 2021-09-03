@@ -14,3 +14,6 @@ thinkbash.md: Added the last part of Section 1.4 (Formal and natural languages);
 thinkpython2.md: Prepared Section 1.5 (The first program); compared paperback edition with online edition; no mention of Python 3 version.
 
 ### R2D4
+thinkpython2.md: Added current version of Section 1.5 (The first program); modified the source patch; upload to HTTP server and to repo.
+
+### R2D5
