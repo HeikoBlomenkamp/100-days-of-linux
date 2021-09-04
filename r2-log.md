@@ -17,3 +17,6 @@ thinkpython2.md: Prepared Section 1.5 (The first program); compared paperback ed
 thinkpython2.md: Added current version of Section 1.5 (The first program); modified the source patch; upload to HTTP server and to repo.
 
 ### R2D5
+thinkpython2/main: Deleted all *.py test files; added s01_05_00_01.py source code, from Section 1.5 (The first program); upload to repo.
+
+### R2D6
