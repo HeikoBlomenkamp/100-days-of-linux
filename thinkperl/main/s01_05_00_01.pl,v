@@ -1,0 +1,39 @@
+head	2.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+2.1
+date	2021.09.05.19.02.15;	author heiko;	state Exp;
+branches;
+next	;
+
+
+desc
+@Hello, World!
+@
+
+
+2.1
+log
+@R2D6: The first program.
+@
+text
+@# $Id$
+#
+# $Log$
+
+
+print "Hello, World!\n"
+
+# "This is an example of a **print statement**,
+# which doesn't actually print anything on paper.
+# It displays a value on the screen.
+# In this case, the result is the words"
+#
+#####################
+### Hello, World! ###
+#####################
+@
