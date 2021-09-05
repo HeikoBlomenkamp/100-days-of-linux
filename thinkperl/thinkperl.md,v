@@ -1,9 +1,24 @@
-head	1.14;
+head	2.3;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.3
+date	2021.09.05.19.45.05;	author heiko;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	2021.09.05.19.25.47;	author heiko;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	2021.09.05.19.22.17;	author heiko;	state Exp;
+branches;
+next	1.14;
 
 1.14
 date	2021.08.10.00.17.44;	author heiko;	state Exp;
@@ -81,15 +96,24 @@ desc
 @
 
 
-1.14
+2.3
 log
-@R1D79: Replaced debug mode with interactive mode.
+@R2D6: Modified the way of quoting from Think Java, 2e.
 @
 text
 @```
-// $Id: thinkperl.md,v 1.13 2021/08/09 23:03:29 heiko Exp heiko $
+// $Id: thinkperl.md,v 2.2 2021/09/05 19:25:47 heiko Exp heiko $
 //
 // $Log: thinkperl.md,v $
+// Revision 2.2  2021/09/05 19:25:47  heiko
+// R2D6: Added missing link.
+//
+// Revision 2.1  2021/09/05 19:22:17  heiko
+// R2D6: Added Section 1.5 (The first program).
+//
+// Revision 1.14  2021/08/10 00:17:44  heiko
+// R1D79: Replaced debug mode with interactive mode.
+//
 // Revision 1.13  2021/08/09 23:03:29  heiko
 // R1D79: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -133,7 +157,7 @@ text
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 6--100
 
 **Markdown Version of "Think Perl"**
 
@@ -166,6 +190,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is a program?](#12_What_is_a_program)
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
+    - [The first program](#15_The_first_program)
 
 
 
@@ -488,6 +513,81 @@ program in your head, identifying the tokens and interpreting the structure. Fin
 the details matter. Small errors in *spelling* and *punctuation*, which you can get away
 with in natural languages, can make a big difference in a formal language.
 
+### 1\.5 The first program
+
+Traditionally, the first program you write in a new language is called "Hello, World!"
+because all it does is display the words "Hello, World!". In Perl, it looks like
+this:
+
+```pl
+print "Hello, World!\n"
+```
+
+This is an example of a **print statement**, which doesn't actually print anything on
+paper. It displays a value on the screen. In this case, the result is the words
+
+```
+Hello, World!
+```
+
+The quotation marks in the program mark the *beginning* and *end* of the text to be
+displayed; they don't appear in the result.
+
+> "The **\\n** is an **escape sequence**, or two characters of source code
+> that represent a single character. (The backslash allows you to
+> escape the string to write special characters.)"
+> ---Allen B. Downey and Chris Mayfield, Think Java, 2nd Edition
+
+
+
+@
+
+
+2.2
+log
+@R2D6: Added missing link.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkperl.md,v 2.1 2021/09/05 19:22:17 heiko Exp heiko $
+d5 3
+d433 1
+a433 1
+> The **\\n** is an **escape sequence**, or two characters of source code
+d435 4
+a438 2
+> escape the string to write special characters.)
+> ---Think Java, Second Edition
+@
+
+
+2.1
+log
+@R2D6: Added Section 1.5 (The first program).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkperl.md,v 1.14 2021/08/10 00:17:44 heiko Exp heiko $
+d5 3
+d54 1
+a54 1
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
+d87 1
+@
+
+
+1.14
+log
+@R1D79: Replaced debug mode with interactive mode.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkperl.md,v 1.13 2021/08/09 23:03:29 heiko Exp heiko $
+d5 3
+d405 25
 @
 
 
