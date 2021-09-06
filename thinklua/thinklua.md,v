@@ -1,9 +1,14 @@
-head	1.10;
+head	2.1;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.1
+date	2021.09.06.13.28.06;	author heiko;	state Exp;
+branches;
+next	1.10;
 
 1.10
 date	2021.08.09.23.32.07;	author heiko;	state Exp;
@@ -61,15 +66,18 @@ desc
 @
 
 
-1.10
+2.1
 log
-@R1D79: Modified columns per line (lynx dump: 95 cpl).
+@R2D7: Added Section 1.5 (The first program).
 @
 text
 @```
-// $Id: thinklua.md,v 1.9 2021/08/09 23:00:53 heiko Exp heiko $
+// $Id: thinklua.md,v 1.10 2021/08/09 23:32:07 heiko Exp heiko $
 //
 // $Log: thinklua.md,v $
+// Revision 1.10  2021/08/09 23:32:07  heiko
+// R1D79: Modified columns per line (lynx dump: 95 cpl).
+//
 // Revision 1.9  2021/08/09 23:00:53  heiko
 // R1D79: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -101,7 +109,7 @@ text
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 7--100
 
 **Markdown Version of "Think Lua"**
 
@@ -134,6 +142,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is a program?](#12_What_is_a_program)
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
+    - [The first program](#15_The_first_program)
 
 
 
@@ -454,6 +463,43 @@ program in your head, identifying the tokens and interpreting the structure. Fin
 the details matter. Small errors in *spelling* and *punctuation*, which you can get away
 with in natural languages, can make a big difference in a formal language.
 
+### 1\.5 The first program
+
+Traditionally, the first program you write in a new language is called "Hello, World!"
+because all it does is display the words "Hello, World!". In Lua, it looks like
+this:
+
+```lua
+print 'Hello, World!'
+```
+
+This is an example of a **print statement**, which doesn't actually print anything on
+paper. It displays a value on the screen. In this case, the result is the words
+
+```
+Hello, World!
+```
+
+The quotation marks in the program mark the *beginning* and *end* of the text to be
+displayed; they don't appear in the result.
+
+@
+
+
+1.10
+log
+@R1D79: Modified columns per line (lynx dump: 95 cpl).
+@
+text
+@d2 1
+a2 1
+// $Id: thinklua.md,v 1.9 2021/08/09 23:00:53 heiko Exp heiko $
+d5 3
+d39 1
+a39 1
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
+d72 1
+d392 20
 @
 
 
