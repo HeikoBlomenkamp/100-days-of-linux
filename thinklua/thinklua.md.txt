@@ -1,7 +1,10 @@
 ```
-// $Id: thinklua.md,v 1.10 2021/08/09 23:32:07 heiko Exp $
+// $Id: thinklua.md,v 2.1 2021/09/06 13:28:06 heiko Exp $
 //
 // $Log: thinklua.md,v $
+// Revision 2.1  2021/09/06 13:28:06  heiko
+// R2D7: Added Section 1.5 (The first program).
+//
 // Revision 1.10  2021/08/09 23:32:07  heiko
 // R1D79: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -36,7 +39,7 @@
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 1 DAY 1--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 7--100
 
 **Markdown Version of "Think Lua"**
 
@@ -69,6 +72,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is a program?](#12_What_is_a_program)
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
+    - [The first program](#15_The_first_program)
 
 
 
@@ -388,4 +392,24 @@ good idea to read from top to bottom, left to right. Instead, *learn to parse* t
 program in your head, identifying the tokens and interpreting the structure. Finally,
 the details matter. Small errors in *spelling* and *punctuation*, which you can get away
 with in natural languages, can make a big difference in a formal language.
+
+### 1\.5 The first program
+
+Traditionally, the first program you write in a new language is called "Hello, World!"
+because all it does is display the words "Hello, World!". In Lua, it looks like
+this:
+
+```lua
+print 'Hello, World!'
+```
+
+This is an example of a **print statement**, which doesn't actually print anything on
+paper. It displays a value on the screen. In this case, the result is the words
+
+```
+Hello, World!
+```
+
+The quotation marks in the program mark the *beginning* and *end* of the text to be
+displayed; they don't appear in the result.
 
