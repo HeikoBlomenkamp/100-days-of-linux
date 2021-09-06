@@ -23,3 +23,6 @@ thinkpython2/main: Deleted all \*.py test files; added s01_05_00_01.py source co
 thinkperl: Added current version of Section 1.5 (The first program); deleted all \*.pl test files; added the s01_05_00_01.pl source code.
 
 ### R2D7
+thinklua: Added current version of Section 1.5 (The first program); deleted my \*.lua test files; added the s01_05_00_01.lua source code.
+
+### R2D8
