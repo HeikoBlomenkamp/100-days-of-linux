@@ -1,9 +1,14 @@
-head	1.3;
+head	2.1;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.1
+date	2021.09.06.13.50.08;	author heiko;	state Exp;
+branches;
+next	1.3;
 
 1.3
 date	2021.06.23.00.01.39;	author heiko;	state Exp;
@@ -26,16 +31,19 @@ desc
 @
 
 
-1.3
+2.1
 log
-@R1D31: Added Section 1.4 (Formal and natural languages).
+@R2D7: Added Section 1.5 (The first program).
 @
 text
 @#!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.2 2021/05/28 21:53:06 heiko Exp heiko $
+# $Id: dillinger-to-http.sh,v 1.3 2021/06/23 00:01:39 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.3  2021/06/23 00:01:39  heiko
+# R1D31: Added Section 1.4 (Formal and natural languages).
+#
 # Revision 1.2  2021/05/28 21:53:06  heiko
 # R1D6: Added Section 1.3 (What is debugging?).
 #
@@ -56,7 +64,8 @@ HEADINGS=('Preface' \
 '11_The_Lua_programming_language' \
 '12_What_is_a_program' \
 '13_What_is_debugging' \
-'14_Formal_and_natural_languages')
+'14_Formal_and_natural_languages' \
+'15_The_first_program')
 
 # Keep original file
 cp -ua $1 $2
@@ -75,6 +84,21 @@ do
 done
 
 exit 0
+@
+
+
+1.3
+log
+@R1D31: Added Section 1.4 (Formal and natural languages).
+@
+text
+@d3 1
+a3 1
+# $Id: dillinger-to-http.sh,v 1.2 2021/05/28 21:53:06 heiko Exp heiko $
+d6 3
+d29 2
+a30 1
+'14_Formal_and_natural_languages')
 @
 
 
