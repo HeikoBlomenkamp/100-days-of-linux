@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.3 2021/06/23 00:01:39 heiko Exp $
+# $Id: dillinger-to-http.sh,v 2.1 2021/09/06 13:50:08 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 2.1  2021/09/06 13:50:08  heiko
+# R2D7: Added Section 1.5 (The first program).
+#
 # Revision 1.3  2021/06/23 00:01:39  heiko
 # R1D31: Added Section 1.4 (Formal and natural languages).
 #
@@ -26,7 +29,8 @@ HEADINGS=('Preface' \
 '11_The_Lua_programming_language' \
 '12_What_is_a_program' \
 '13_What_is_debugging' \
-'14_Formal_and_natural_languages')
+'14_Formal_and_natural_languages' \
+'15_The_first_program')
 
 # Keep original file
 cp -ua $1 $2
