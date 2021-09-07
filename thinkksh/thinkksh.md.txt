@@ -1,7 +1,13 @@
 ```
-// $Id: thinkksh.md,v 2.2 2021/08/31 02:23:07 heiko Exp $
+// $Id: thinkksh.md,v 2.4 2021/09/07 15:21:53 heiko Exp $
 //
 // $Log: thinkksh.md,v $
+// Revision 2.4  2021/09/07 15:21:53  heiko
+// R2D8: Modified a link.
+//
+// Revision 2.3  2021/09/07 15:14:02  heiko
+// R2D8: Added Section 1.5 (The first program).
+//
 // Revision 2.2  2021/08/31 02:23:07  heiko
 // R2D1: Modified the number of the round (1 -> 2).
 //
@@ -66,6 +72,8 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is a program?](#12_What_is_a_program)
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
+    - [The first program](#15_The_first_program)
+    - [Debugging](#16_Debugging)
 
 
 
@@ -73,7 +81,6 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 
 [postponed]
 `[PS1='ksh(${PWD##*/}):${HISTCMD}:${TMOUT}> ']`
-
 
 
 
@@ -150,12 +157,12 @@ mode**. In interactive mode, you type KSH programs and the interpreter displays 
 result:
 
 ```
-ksh(93u+):1:0> echo $((1 + 1))
+ksh(93u+):1:0> print $((1 + 1))
 2
 ```
 
 The expression `ksh(93u+):1:0>` is the **prompt** the interpreter uses to indicate that it
-is ready. If you type `echo $((1 + 1))` , the interpreter replies `2` .
+is ready. If you type `print $((1 + 1))` , the interpreter replies `2` .
 
 Alternatively, you can store code in a file and use the interpreter to execute the
 contents of the file, which is called a **script**. By convention, KSH scripts have
@@ -381,10 +388,38 @@ Programs:
 understood entirely by analysis of the tokens and structure.
 
 Here are some suggestions for reading programs (and other formal languages). First,
-remember that formal languages are *much more dense* than natural languages, so it takes
+remember that formal languages are much more dense than natural languages, so it takes
 longer to read them. Also, the structure is very important, so it is usually not a
-good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+good idea to read from top to bottom, left to right. Instead, learn to parse the
 program in your head, identifying the tokens and interpreting the structure. Finally,
-the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+the details matter. Small errors in spelling and punctuation, which you can get away
 with in natural languages, can make a big difference in a formal language.
+
+
+
+### 1\.5 The first program
+
+Traditionally, the first program you write in a new language is called "Hello, World!"
+because all it does is display the words "Hello, World!". In KSH, it looks like
+this:
+
+```sh
+print 'Hello, World!'
+```
+
+This is an example of a **print statement**, which doesn't actually print anything on
+paper. It displays a value on the screen. In this case, the result is the words
+
+```
+Hello, World!
+```
+
+The quotation marks in the program mark the beginning and end of the text to be
+displayed; they don't appear in the result.
+
+
+
+### 1\.6 Debugging
+
+[...]
 
