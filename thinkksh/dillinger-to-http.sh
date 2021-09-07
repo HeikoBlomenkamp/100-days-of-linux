@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.2 2021/06/24 21:59:27 heiko Exp $
+# $Id: dillinger-to-http.sh,v 2.1 2021/09/07 15:33:17 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 2.1  2021/09/07 15:33:17  heiko
+# R2D8: Added Section 1.5, and Section 1.6 (Debugging).
+#
 # Revision 1.2  2021/06/24 21:59:27  heiko
 # R1D32: Added Section 1.4 (Formal and natural languages).
 #
@@ -23,7 +26,9 @@ HEADINGS=('Preface' \
 '11_The_KSH_programming_language' \
 '12_What_is_a_program' \
 '13_What_is_debugging' \
-'14_Formal_and_natural_languages')
+'14_Formal_and_natural_languages' \
+'15_The_first_program' \
+'16_Debugging')
 
 # Keep original file
 cp -ua $1 $2
