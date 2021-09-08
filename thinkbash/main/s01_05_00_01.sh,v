@@ -1,0 +1,29 @@
+head	2.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+2.1
+date	2021.09.08.17.03.27;	author heiko;	state Exp;
+branches;
+next	;
+
+
+desc
+@Hello, World!
+@
+
+
+2.1
+log
+@R2D9: The first program.
+@
+text
+@# $Id$
+#
+# $Log$
+
+echo 'Hello, World!'
+@
