@@ -1,7 +1,10 @@
 ```
-// $Id: thinkbash.md,v 2.1 2021/09/01 04:15:24 heiko Exp $
+// $Id: thinkbash.md,v 2.2 2021/09/08 17:39:11 heiko Exp $
 //
 // $Log: thinkbash.md,v $
+// Revision 2.2  2021/09/08 17:39:11  heiko
+// R2D9: Added Section 1.5 (The first program).
+//
 // Revision 2.1  2021/09/01 04:15:24  heiko
 // R2D2: Added Section 1.4 (Formal and natural languages).
 //
@@ -81,6 +84,8 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is a program?](#12_What_is_a_program)
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
+    - [The first program](#15_The_first_program)
+    - [Debugging](#16_Debugging)
 
 
 
@@ -395,10 +400,38 @@ Programs:
 understood entirely by analysis of the tokens and structure.
 
 Here are some suggestions for reading programs (and other formal languages). First,
-remember that formal languages are *much more dense* than natural languages, so it takes
+remember that formal languages are much more dense than natural languages, so it takes
 longer to read them. Also, the structure is very important, so it is usually not a
-good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+good idea to read from top to bottom, left to right. Instead, learn to parse the
 program in your head, identifying the tokens and interpreting the structure. Finally,
-the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+the details matter. Small errors in spelling and punctuation, which you can get away
 with in natural languages, can make a big difference in a formal language.
+
+
+
+### 1\.5 The first program
+
+Traditionally, the first program you write in a new language is called "Hello, World!"
+because all it does is display the words "Hello, World!". In Bash, it looks like
+this:
+
+```sh
+echo 'Hello, World!'
+```
+
+This is an example of a **print statement**, which doesn't actually print anything on
+paper. It displays a value on the screen. In this case, the result is the words
+
+```
+Hello, World!
+```
+
+The quotation marks in the program mark the beginning and end of the text to be
+displayed; they don't appear in the result.
+
+
+
+### 1\.6 Debugging
+
+[...]
 
