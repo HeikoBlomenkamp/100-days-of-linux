@@ -29,3 +29,6 @@ thinklua: Added current version of Section 1.5 (The first program); deleted my \
 thinkksh: Added current version of Section 1.5 (The first program); deleted my \*.ksh test files; added the s01_05_00_01.ksh source code.
 
 ### R2D9
+thinkbash: Added current version of Section 1.5 (The first program); deleted all \*.sh test files; added the s01_05_00_01.sh source code.
+
+### R2D10
