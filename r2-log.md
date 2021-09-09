@@ -32,3 +32,6 @@ thinkksh: Added current version of Section 1.5 (The first program); deleted my \
 thinkbash: Added current version of Section 1.5 (The first program); deleted all \*.sh test files; added the s01_05_00_01.sh source code.
 
 ### R2D10
+thinkpython2: Added a link to the Think Python source diff file; deleted print statement comment in the main/s01_05_00_01.py source code.
+
+### R2D11
