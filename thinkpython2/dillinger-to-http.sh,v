@@ -1,9 +1,14 @@
-head	2.1;
+head	2.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.2
+date	2021.09.09.13.10.56;	author heiko;	state Exp;
+branches;
+next	2.1;
 
 2.1
 date	2021.09.03.13.57.57;	author heiko;	state Exp;
@@ -36,16 +41,19 @@ desc
 @
 
 
-2.1
+2.2
 log
-@R2D4: Added Section 1.5 (The first program).
+@R2D10: Added Section 1.6 (Debugging).
 @
 text
 @#!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.4 2021/06/01 07:17:52 heiko Exp heiko $
+# $Id: dillinger-to-http.sh,v 2.1 2021/09/03 13:57:57 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 2.1  2021/09/03 13:57:57  heiko
+# R2D4: Added Section 1.5 (The first program).
+#
 # Revision 1.4  2021/06/01 07:17:52  heiko
 # R1D10: Added Section 1.4 (Formal and natural languages).
 #
@@ -73,7 +81,8 @@ HEADINGS=('Preface' \
 '12_What_is_a_program' \
 '13_What_is_debugging' \
 '14_Formal_and_natural_languages' \
-'15_The_first_program')
+'15_The_first_program' \
+'16_Debugging')
 
 
 # Keep original file
@@ -93,6 +102,21 @@ do
 done
 
 exit 0
+@
+
+
+2.1
+log
+@R2D4: Added Section 1.5 (The first program).
+@
+text
+@d3 1
+a3 1
+# $Id: dillinger-to-http.sh,v 1.4 2021/06/01 07:17:52 heiko Exp heiko $
+d6 3
+d36 2
+a37 1
+'15_The_first_program')
 @
 
 
