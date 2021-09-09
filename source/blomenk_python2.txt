@@ -1,7 +1,10 @@
 
-// $Id: thinkpython2.md,v 2.1 2021/09/03 14:04:04 heiko Exp $
+// $Id: thinkpython2.md,v 2.2 2021/09/09 13:03:51 heiko Exp $
 //
 // $Log: thinkpython2.md,v $
+// Revision 2.2  2021/09/09 13:03:51  heiko
+// R2D10: Added link to Think Python source diff file.
+//
 // Revision 2.1  2021/09/03 14:04:04  heiko
 // R2D4: Added Section 1.5 (The first program).
 //
@@ -80,17 +83,19 @@
    First Edition (which uses Python 2), Version 2.0.17
 
    Copyright © 2017 Allen B. Downey.
+   [5]Modifications by Heiko Blomenkamp.
 
    Permission is granted to copy, distribute, and/or modify this work under the terms of
    the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
-   available at [5]http://creativecommons.org/licenses/by-nc/3.0/.
-     * [6]Preface
-     * [7]The way of the program
-          + [8]The Python programming language
-          + [9]What is a program?
-          + [10]What is debugging?
-          + [11]Formal and natural languages
-          + [12]The first program
+   available at [6]http://creativecommons.org/licenses/by-nc/3.0/.
+     * [7]Preface
+     * [8]The way of the program
+          + [9]The Python programming language
+          + [10]What is a program?
+          + [11]What is debugging?
+          + [12]Formal and natural languages
+          + [13]The first program
+          + [14]Debugging
 
 Preface
 
@@ -403,17 +408,23 @@ Hello, World!
    The quotation marks in the program mark the beginning and end of the text to be
    displayed; they don’t appear in the result.
 
+  1.6 Debugging
+
+   […]
+
 References
 
    1. https://twitter.com/hashtag/100DaysOfLinux
    2. https://greenteapress.com/wp/think-python/
    3. https://dillinger.io/
    4. https://twitter.com/HeikoBlomenkamp
-   5. https://creativecommons.org/licenses/by-nc/3.0/
-   6. http://blomenk.bplaced.net/thinkpython2/#Preface
-   7. http://blomenk.bplaced.net/thinkpython2/#1_The_way_of_the_program
-   8. http://blomenk.bplaced.net/thinkpython2/#11_The_Python_programming_language
-   9. http://blomenk.bplaced.net/thinkpython2/#12_What_is_a_program
-  10. http://blomenk.bplaced.net/thinkpython2/#13_What_is_debugging
-  11. http://blomenk.bplaced.net/thinkpython2/#14_Formal_and_natural_languages
-  12. http://blomenk.bplaced.net/thinkpython2/#15_The_first_program
+   5. https://github.com/HeikoBlomenkamp/100-days-of-linux/blob/master/source/blomenk_downey.patch
+   6. https://creativecommons.org/licenses/by-nc/3.0/
+   7. http://blomenk.bplaced.net/thinkpython2/#Preface
+   8. http://blomenk.bplaced.net/thinkpython2/#1_The_way_of_the_program
+   9. http://blomenk.bplaced.net/thinkpython2/#11_The_Python_programming_language
+  10. http://blomenk.bplaced.net/thinkpython2/#12_What_is_a_program
+  11. http://blomenk.bplaced.net/thinkpython2/#13_What_is_debugging
+  12. http://blomenk.bplaced.net/thinkpython2/#14_Formal_and_natural_languages
+  13. http://blomenk.bplaced.net/thinkpython2/#15_The_first_program
+  14. http://blomenk.bplaced.net/thinkpython2/#16_Debugging
