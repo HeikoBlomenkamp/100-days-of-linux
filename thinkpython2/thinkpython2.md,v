@@ -1,9 +1,14 @@
-head	2.1;
+head	2.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.2
+date	2021.09.09.13.03.51;	author heiko;	state Exp;
+branches;
+next	2.1;
 
 2.1
 date	2021.09.03.14.04.04;	author heiko;	state Exp;
@@ -111,15 +116,18 @@ desc
 @
 
 
-2.1
+2.2
 log
-@R2D4: Added Section 1.5 (The first program).
+@R2D10: Added link to Think Python source diff file.
 @
 text
 @```
-// $Id: thinkpython2.md,v 1.19 2021/08/09 23:04:32 heiko Exp heiko $
+// $Id: thinkpython2.md,v 2.1 2021/09/03 14:04:04 heiko Exp heiko $
 //
 // $Log: thinkpython2.md,v $
+// Revision 2.1  2021/09/03 14:04:04  heiko
+// R2D4: Added Section 1.5 (The first program).
+//
 // Revision 1.19  2021/08/09 23:04:32  heiko
 // R1D79: Modified columns per line (lynx dump: 95 cpl).
 //
@@ -199,6 +207,7 @@ Challenge started on May 23, 2021.
 First Edition (which uses Python 2), Version 2.0.17
 
 Copyright (C) 2017 Allen B. Downey.
+[Modifications](https://github.com/HeikoBlomenkamp/100-days-of-linux/blob/master/source/blomenk_downey.patch) by Heiko Blomenkamp.
 
 Permission is granted to copy, distribute, and/or modify this work under the terms of
 the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
@@ -213,6 +222,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
     - [The first program](#15_The_first_program)
+    - [Debugging](#16_Debugging)
 
 
 
@@ -527,11 +537,11 @@ Programs:
 understood entirely by analysis of the tokens and structure.
 
 Here are some suggestions for reading programs (and other formal languages). First,
-remember that formal languages are *much more dense* than natural languages, so it takes
+remember that formal languages are much more dense than natural languages, so it takes
 longer to read them. Also, the structure is very important, so it is usually not a
-good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+good idea to read from top to bottom, left to right. Instead, learn to parse the
 program in your head, identifying the tokens and interpreting the structure. Finally,
-the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+the details matter. Small errors in spelling and punctuation, which you can get away
 with in natural languages, can make a big difference in a formal language.
 
 
@@ -553,9 +563,42 @@ paper. It displays a value on the screen. In this case, the result is the words
 Hello, World!
 ```
 
-The quotation marks in the program mark the *beginning* and *end* of the text to be
+The quotation marks in the program mark the beginning and end of the text to be
 displayed; they don't appear in the result.
 
+
+
+### 1\.6 Debugging
+
+[...]
+
+@
+
+
+2.1
+log
+@R2D4: Added Section 1.5 (The first program).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 1.19 2021/08/09 23:04:32 heiko Exp heiko $
+d5 3
+d87 1
+d102 1
+d417 1
+a417 1
+remember that formal languages are *much more dense* than natural languages, so it takes
+d419 1
+a419 1
+good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+d421 1
+a421 1
+the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+d443 1
+a443 1
+The quotation marks in the program mark the *beginning* and *end* of the text to be
+d445 6
 @
 
 
