@@ -35,3 +35,6 @@ thinkbash: Added current version of Section 1.5 (The first program); deleted all
 thinkpython2: Added a link to the Think Python source diff file; deleted print statement comment in the main/s01_05_00_01.py source code.
 
 ### R2D11
+thinkperl: Modified the formatting of recent text; modified the challenge counter; deleted a comment in main/s01_05_00_01.pl source code.
+
+### R2D12
