@@ -1,9 +1,14 @@
-head	2.3;
+head	2.4;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.4
+date	2021.09.10.15.38.01;	author heiko;	state Exp;
+branches;
+next	2.3;
 
 2.3
 date	2021.09.05.19.45.05;	author heiko;	state Exp;
@@ -96,15 +101,18 @@ desc
 @
 
 
-2.3
+2.4
 log
-@R2D6: Modified the way of quoting from Think Java, 2e.
+@R2D11: Modified the formatting of recent text.
 @
 text
 @```
-// $Id: thinkperl.md,v 2.2 2021/09/05 19:25:47 heiko Exp heiko $
+// $Id: thinkperl.md,v 2.3 2021/09/05 19:45:05 heiko Exp heiko $
 //
 // $Log: thinkperl.md,v $
+// Revision 2.3  2021/09/05 19:45:05  heiko
+// R2D6: Modified the way of quoting from Think Java, 2e.
+//
 // Revision 2.2  2021/09/05 19:25:47  heiko
 // R2D6: Added missing link.
 //
@@ -157,7 +165,7 @@ text
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 6--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 11
 
 **Markdown Version of "Think Perl"**
 
@@ -191,6 +199,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
     - [The first program](#15_The_first_program)
+    - [Debugging](#16_Debugging)
 
 
 
@@ -199,6 +208,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 [postponed]
 [here: debug mode = interactive mode]
 `[perl -de1]`
+[mathematics := ordinary mathematics]
 
 
 
@@ -506,12 +516,14 @@ Programs:
 understood entirely by analysis of the tokens and structure.
 
 Here are some suggestions for reading programs (and other formal languages). First,
-remember that formal languages are *much more dense* than natural languages, so it takes
+remember that formal languages are much more dense than natural languages, so it takes
 longer to read them. Also, the structure is very important, so it is usually not a
-good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+good idea to read from top to bottom, left to right. Instead, learn to parse the
 program in your head, identifying the tokens and interpreting the structure. Finally,
-the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+the details matter. Small errors in spelling and punctuation, which you can get away
 with in natural languages, can make a big difference in a formal language.
+
+
 
 ### 1\.5 The first program
 
@@ -530,7 +542,7 @@ paper. It displays a value on the screen. In this case, the result is the words
 Hello, World!
 ```
 
-The quotation marks in the program mark the *beginning* and *end* of the text to be
+The quotation marks in the program mark the beginning and end of the text to be
 displayed; they don't appear in the result.
 
 > "The **\\n** is an **escape sequence**, or two characters of source code
@@ -540,6 +552,41 @@ displayed; they don't appear in the result.
 
 
 
+### 1\.6 Debugging
+
+[...]
+
+@
+
+
+2.3
+log
+@R2D6: Modified the way of quoting from Think Java, 2e.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkperl.md,v 2.2 2021/09/05 19:25:47 heiko Exp heiko $
+d5 3
+d60 1
+a60 1
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 6--100
+d94 1
+d103 1
+d411 1
+a411 1
+remember that formal languages are *much more dense* than natural languages, so it takes
+d413 1
+a413 1
+good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+d415 1
+a415 1
+the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+d418 2
+d437 1
+a437 1
+The quotation marks in the program mark the *beginning* and *end* of the text to be
+d446 4
 @
 
 
