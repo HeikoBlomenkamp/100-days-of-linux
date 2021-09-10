@@ -1,9 +1,14 @@
-head	2.1;
+head	2.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.2
+date	2021.09.10.16.00.36;	author heiko;	state Exp;
+branches;
+next	2.1;
 
 2.1
 date	2021.09.05.19.02.15;	author heiko;	state Exp;
@@ -16,17 +21,34 @@ desc
 @
 
 
+2.2
+log
+@R2D11: Deleted the print statement comment.
+@
+text
+@# $Id: s01_05_00_01.pl,v 2.1 2021/09/05 19:02:15 heiko Exp heiko $
+#
+# $Log: s01_05_00_01.pl,v $
+# Revision 2.1  2021/09/05 19:02:15  heiko
+# R2D6: The first program.
+#
+
+print "Hello, World!\n"
+@
+
+
 2.1
 log
 @R2D6: The first program.
 @
 text
-@# $Id$
-#
+@d1 5
+a5 1
+# $Id$
+a6 2
 # $Log$
 
-
-print "Hello, World!\n"
+a8 9
 
 # "This is an example of a **print statement**,
 # which doesn't actually print anything on paper.
