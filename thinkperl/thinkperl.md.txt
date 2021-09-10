@@ -1,7 +1,10 @@
 ```
-// $Id: thinkperl.md,v 2.3 2021/09/05 19:45:05 heiko Exp $
+// $Id: thinkperl.md,v 2.4 2021/09/10 15:38:01 heiko Exp $
 //
 // $Log: thinkperl.md,v $
+// Revision 2.4  2021/09/10 15:38:01  heiko
+// R2D11: Modified the formatting of recent text.
+//
 // Revision 2.3  2021/09/05 19:45:05  heiko
 // R2D6: Modified the way of quoting from Think Java, 2e.
 //
@@ -57,7 +60,7 @@
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 6--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 11
 
 **Markdown Version of "Think Perl"**
 
@@ -91,6 +94,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
     - [The first program](#15_The_first_program)
+    - [Debugging](#16_Debugging)
 
 
 
@@ -99,6 +103,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 [postponed]
 [here: debug mode = interactive mode]
 `[perl -de1]`
+[mathematics := ordinary mathematics]
 
 
 
@@ -406,12 +411,14 @@ Programs:
 understood entirely by analysis of the tokens and structure.
 
 Here are some suggestions for reading programs (and other formal languages). First,
-remember that formal languages are *much more dense* than natural languages, so it takes
+remember that formal languages are much more dense than natural languages, so it takes
 longer to read them. Also, the structure is very important, so it is usually not a
-good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+good idea to read from top to bottom, left to right. Instead, learn to parse the
 program in your head, identifying the tokens and interpreting the structure. Finally,
-the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+the details matter. Small errors in spelling and punctuation, which you can get away
 with in natural languages, can make a big difference in a formal language.
+
+
 
 ### 1\.5 The first program
 
@@ -430,7 +437,7 @@ paper. It displays a value on the screen. In this case, the result is the words
 Hello, World!
 ```
 
-The quotation marks in the program mark the *beginning* and *end* of the text to be
+The quotation marks in the program mark the beginning and end of the text to be
 displayed; they don't appear in the result.
 
 > "The **\\n** is an **escape sequence**, or two characters of source code
@@ -439,4 +446,8 @@ displayed; they don't appear in the result.
 > ---Allen B. Downey and Chris Mayfield, Think Java, 2nd Edition
 
 
+
+### 1\.6 Debugging
+
+[...]
 
