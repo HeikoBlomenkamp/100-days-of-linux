@@ -38,3 +38,6 @@ thinkpython2: Added a link to the Think Python source diff file; deleted print s
 thinkperl: Modified the formatting of recent text; modified the challenge counter; deleted a comment in main/s01_05_00_01.pl source code.
 
 ### R2D12
+thinkperl: Deleted a quote from Think Java; inserted a description of the escape sequence for the newline character; other minor changes.
+
+### R2D13
