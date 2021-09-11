@@ -1,7 +1,13 @@
 ```
-// $Id: thinkperl.md,v 2.4 2021/09/10 15:38:01 heiko Exp $
+// $Id: thinkperl.md,v 2.6 2021/09/11 17:02:59 heiko Exp $
 //
 // $Log: thinkperl.md,v $
+// Revision 2.6  2021/09/11 17:02:59  heiko
+// R2D12: Replaced the quote from Think Java.
+//
+// Revision 2.5  2021/09/11 15:27:15  heiko
+// R2D12: Deleted second part of a quote from Think Java.
+//
 // Revision 2.4  2021/09/10 15:38:01  heiko
 // R2D11: Modified the formatting of recent text.
 //
@@ -60,7 +66,7 @@
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 11
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 12
 
 **Markdown Version of "Think Perl"**
 
@@ -101,7 +107,7 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 ## Preface
 
 [postponed]
-[here: debug mode = interactive mode]
+[here: interactive mode := debug mode]
 `[perl -de1]`
 [mathematics := ordinary mathematics]
 
@@ -438,12 +444,7 @@ Hello, World!
 ```
 
 The quotation marks in the program mark the beginning and end of the text to be
-displayed; they don't appear in the result.
-
-> "The **\\n** is an **escape sequence**, or two characters of source code
-> that represent a single character. (The backslash allows you to
-> escape the string to write special characters.)"
-> ---Allen B. Downey and Chris Mayfield, Think Java, 2nd Edition
+displayed; while the **\\n** inserts a newline, they don't appear in the result.
 
 
 
