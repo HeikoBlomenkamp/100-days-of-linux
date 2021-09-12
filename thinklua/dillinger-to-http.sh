@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 2.1 2021/09/06 13:50:08 heiko Exp $
+# $Id: dillinger-to-http.sh,v 2.2 2021/09/12 16:04:26 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 2.2  2021/09/12 16:04:26  heiko
+# R2D13: Added Section 1.6 (Debugging).
+#
 # Revision 2.1  2021/09/06 13:50:08  heiko
 # R2D7: Added Section 1.5 (The first program).
 #
@@ -30,7 +33,8 @@ HEADINGS=('Preface' \
 '12_What_is_a_program' \
 '13_What_is_debugging' \
 '14_Formal_and_natural_languages' \
-'15_The_first_program')
+'15_The_first_program' \
+'16_Debugging')
 
 # Keep original file
 cp -ua $1 $2
