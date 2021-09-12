@@ -1,7 +1,10 @@
 ```
-// $Id: thinklua.md,v 2.1 2021/09/06 13:28:06 heiko Exp $
+// $Id: thinklua.md,v 2.2 2021/09/12 16:00:45 heiko Exp $
 //
 // $Log: thinklua.md,v $
+// Revision 2.2  2021/09/12 16:00:45  heiko
+// R2D13: Modified the formatting of recent text.
+//
 // Revision 2.1  2021/09/06 13:28:06  heiko
 // R2D7: Added Section 1.5 (The first program).
 //
@@ -39,7 +42,7 @@
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 7--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 13
 
 **Markdown Version of "Think Lua"**
 
@@ -73,13 +76,14 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
     - [What is debugging?](#13_What_is_debugging)
     - [Formal and natural languages](#14_Formal_and_natural_languages)
     - [The first program](#15_The_first_program)
+    - [Debugging](#16_Debugging)
 
 
 
 ## Preface
 
 [postponed]
-
+[mathematics := ordinary mathematics]
 
 
 ## 1\. The way of the program
@@ -107,7 +111,7 @@ become clearer.
 
 The programming language you will learn is Lua. Lua is an example of a
 **high-level language**; other high-level languages you might have heard of are C, C++,
-Python, and Java.
+Perl, and Java.
 
 There are also **low-level languages**, sometimes referred to as "machine languages" or
 "assembly languages." Loosely speaking, computers can only run programs written in
@@ -386,12 +390,14 @@ Programs:
 understood entirely by analysis of the tokens and structure.
 
 Here are some suggestions for reading programs (and other formal languages). First,
-remember that formal languages are *much more dense* than natural languages, so it takes
+remember that formal languages are much more dense than natural languages, so it takes
 longer to read them. Also, the structure is very important, so it is usually not a
-good idea to read from top to bottom, left to right. Instead, *learn to parse* the
+good idea to read from top to bottom, left to right. Instead, learn to parse the
 program in your head, identifying the tokens and interpreting the structure. Finally,
-the details matter. Small errors in *spelling* and *punctuation*, which you can get away
+the details matter. Small errors in spelling and punctuation, which you can get away
 with in natural languages, can make a big difference in a formal language.
+
+
 
 ### 1\.5 The first program
 
@@ -410,6 +416,12 @@ paper. It displays a value on the screen. In this case, the result is the words
 Hello, World!
 ```
 
-The quotation marks in the program mark the *beginning* and *end* of the text to be
+The quotation marks in the program mark the beginning and end of the text to be
 displayed; they don't appear in the result.
+
+
+
+### 1\.6 Debugging
+
+[...]
 
