@@ -41,3 +41,6 @@ thinkperl: Modified the formatting of recent text; modified the challenge counte
 thinkperl: Deleted a quote from Think Java; inserted a description of the escape sequence for the newline character; other minor changes.
 
 ### R2D13
+thinklua: Modified the formatting of recent text; modified the challenge counter; deleted a comment in main/s01_05_00_01.lua source code.
+
+### R2D14
