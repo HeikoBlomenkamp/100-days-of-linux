@@ -44,3 +44,9 @@ thinkperl: Deleted a quote from Think Java; inserted a description of the escape
 thinklua: Modified the formatting of recent text; modified the challenge counter; deleted a comment in main/s01_05_00_01.lua source code.
 
 ### R2D14
+Prepared my first part of Section 1.6 (Debugging); a local file only: no uploads to my HTTP server, no uploads to this GitHub repository.
+
+### R2D15
+thinkpython2: Added a script with error messages, see Section 1.6 (Debugging); uploaded my main/s01_06_00_01.py etc. to this GitHub repo.
+
+### R2D16
