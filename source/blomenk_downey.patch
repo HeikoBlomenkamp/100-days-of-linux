@@ -1,10 +1,13 @@
---- blomenk_python2.txt	2021-09-09 15:21:51.538226138 +0200
+--- blomenk_python2.txt	2021-09-15 19:13:59.871600531 +0200
 +++ downey_python2.txt	2021-08-08 01:32:52.570294578 +0200
-@@ -1,108 +1,10 @@
+@@ -1,111 +1,10 @@
  
--// $Id: thinkpython2.md,v 2.2 2021/09/09 13:03:51 heiko Exp $
+-// $Id: thinkpython2.md,v 2.3 2021/09/15 17:02:53 heiko Exp $
 -//
 -// $Log: thinkpython2.md,v $
+-// Revision 2.3  2021/09/15 17:02:53  heiko
+-// R2D16: Added first part of Section 1.6 (Debugging).
+-//
 -// Revision 2.2  2021/09/09 13:03:51  heiko
 -// R2D10: Added link to Think Python source diff file.
 -//
@@ -113,7 +116,7 @@
  
     The goal of this book is to teach you to think like a computer scientist. This way of
     thinking combines some of the best features of mathematics, engineering, and natural
-@@ -121,7 +23,7 @@
+@@ -124,7 +23,7 @@
     level, you will use programming as a means to an end. As we go along, that end will
     become clearer.
  
@@ -122,7 +125,7 @@
  
     The programming language you will learn is Python. Python is an example of a
     high-level language; other high-level languages you might have heard of are C, C++,
-@@ -146,26 +48,28 @@
+@@ -149,26 +48,28 @@
     Two kinds of programs process high-level languages into low-level languages:
     interpreters and compilers. An interpreter reads a high-level program and executes it,
     meaning that it does what the program says. It processes the program a little at a
@@ -161,7 +164,7 @@
  
     Python is considered an interpreted language because Python programs are executed by
     an interpreter. There are two ways to use the interpreter: interactive mode and script
-@@ -174,24 +78,24 @@
+@@ -177,24 +78,24 @@
  >>> 1 + 1
  2
  
@@ -193,7 +196,7 @@
  
     A program is a sequence of instructions that specifies how to perform a computation.
     The computation might be something mathematical, such as solving a system of equations
-@@ -226,7 +130,7 @@
+@@ -229,7 +130,7 @@
     That may be a little vague, but we will come back to this topic when we talk about
     algorithms.
  
@@ -202,7 +205,7 @@
  
     Programming is error-prone. For whimsical reasons, programming errors are called bugs
     and the process of tracking them down is called debugging.
-@@ -235,22 +139,22 @@
+@@ -238,22 +139,22 @@
     semantic errors. It is useful to distinguish between them in order to track them down
     more quickly.
  
@@ -230,7 +233,7 @@
  
     The second type of error is a runtime error, so called because the error does not
     appear until after the program has started running. These errors are also called
-@@ -260,7 +164,7 @@
+@@ -263,7 +164,7 @@
     Runtime errors are rare in the simple programs you will see in the first few chapters,
     so it might be a while before you encounter one.
  
@@ -239,7 +242,7 @@
  
     The third type of error is the semantic error. If there is a semantic error in your
     program, it will run successfully in the sense that the computer will not generate any
-@@ -272,7 +176,7 @@
+@@ -275,7 +176,7 @@
     tricky because it requires you to work backward by looking at the output of the
     program and trying to figure out what it is doing.
  
@@ -248,7 +251,7 @@
  
     One of the most important skills you will acquire is debugging. Although it can be
     frustrating, debugging is one of the most intellectually rich, challenging, and
-@@ -285,11 +189,8 @@
+@@ -288,11 +189,8 @@
     going wrong, you modify your program and try again. If your hypothesis was correct,
     then you can predict the result of the modification, and you take a step closer to a
     working program. If your hypothesis was wrong, you have to come up with a new one. As
@@ -262,7 +265,7 @@
  
     For some people, programming and debugging are the same thing. That is, programming is
     the process of gradually debugging a program until it does what you want. The idea is
-@@ -298,17 +199,14 @@
+@@ -301,17 +199,14 @@
  
     For example, Linux is an operating system that contains thousands of lines of code,
     but it started out as a simple program Linus Torvalds used to explore the Intel 80386
@@ -284,7 +287,7 @@
  
     Natural languages are the languages people speak, such as English, Spanish, and
     French. They were not designed by people (although people try to impose some order on
-@@ -320,23 +218,27 @@
+@@ -323,23 +218,27 @@
     formal language to represent the chemical structure of molecules. And most
     importantly:
  
@@ -319,7 +322,7 @@
  
     When you read a sentence in English or a statement in a formal language, you have to
     figure out what the structure of the sentence is (although in a natural language you
-@@ -394,7 +296,7 @@
+@@ -397,7 +296,7 @@
     the details matter. Small errors in spelling and punctuation, which you can get away
     with in natural languages, can make a big difference in a formal language.
  
@@ -328,7 +331,7 @@
  
     Traditionally, the first program you write in a new language is called “Hello, World!”
     because all it does is display the words “Hello, World!”. In Python, it looks like
-@@ -408,23 +310,238 @@
+@@ -411,7 +310,17 @@
     The quotation marks in the program mark the beginning and end of the text to be
     displayed; they don’t appear in the result.
  
@@ -344,19 +347,13 @@
 +   have to worry about.
 +
 +1.6  Debugging
-+
-+   It is a good idea to read this book in front of a computer so you can try out the
-+   examples as you go. You can run most of the examples in interactive mode, but if you
-+   put the code in a script, it is easier to try out variations.
-+
-+   Whenever you are experimenting with a new feature, you should try to make mistakes.
-+   For example, in the “Hello, world!” program, what happens if you leave out one of the
-+   quotation marks? What if you leave out both? What if you spell print wrong?
-+
-+   This kind of experiment helps you remember what you read; it also helps with
-+   debugging, because you get to know what the error messages mean. It is better to make
-+   mistakes now and on purpose than later and accidentally.
-+
+ 
+    It is a good idea to read this book in front of a computer so you can try out the
+    examples as you go. You can run most of the examples in interactive mode, but if you
+@@ -425,19 +334,214 @@
+    debugging, because you get to know what the error messages mean. It is better to make
+    mistakes now and on purpose than later and accidentally.
+ 
 +   Programming, and especially debugging, sometimes brings out strong emotions. If you
 +   are struggling with a difficult bug, you might feel angry, despondent or embarrassed.
 +
@@ -541,10 +538,9 @@
 +   [19][q?_encoding=UTF8&amp;ASIN=1449314635&amp;Format=_SL160_&amp;ID=AsinImage&amp;Mark
 +   etPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=greenteapre01-20]
 +     _________________________________________________________________________________
- 
--   […]
++
 +   [20]Previous [21]Up [22]Next
- 
++
  References
  
 -   1. https://twitter.com/hashtag/100DaysOfLinux
