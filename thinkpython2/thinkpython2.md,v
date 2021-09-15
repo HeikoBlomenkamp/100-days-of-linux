@@ -1,9 +1,14 @@
-head	2.2;
+head	2.3;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.3
+date	2021.09.15.17.02.53;	author heiko;	state Exp;
+branches;
+next	2.2;
 
 2.2
 date	2021.09.09.13.03.51;	author heiko;	state Exp;
@@ -116,15 +121,18 @@ desc
 @
 
 
-2.2
+2.3
 log
-@R2D10: Added link to Think Python source diff file.
+@R2D16: Added first part of Section 1.6 (Debugging).
 @
 text
 @```
-// $Id: thinkpython2.md,v 2.1 2021/09/03 14:04:04 heiko Exp heiko $
+// $Id: thinkpython2.md,v 2.2 2021/09/09 13:03:51 heiko Exp heiko $
 //
 // $Log: thinkpython2.md,v $
+// Revision 2.2  2021/09/09 13:03:51  heiko
+// R2D10: Added link to Think Python source diff file.
+//
 // Revision 2.1  2021/09/03 14:04:04  heiko
 // R2D4: Added Section 1.5 (The first program).
 //
@@ -570,8 +578,33 @@ displayed; they don't appear in the result.
 
 ### 1\.6 Debugging
 
-[...]
+It is a good idea to read this book in front of a computer so you can try out the
+examples as you go. You can run most of the examples in interactive mode, but if you
+put the code in a script, it is easier to try out variations.
 
+Whenever you are experimenting with a new feature, you should try to make mistakes.
+For example, in the "Hello, world!" program, what happens if you leave out one of the
+quotation marks? What if you leave out both? What if you spell `print` wrong?
+
+This kind of experiment helps you remember what you read; it also helps with
+debugging, because you get to know what the error messages mean. It is better to make
+mistakes now and on purpose than later and accidentally.
+
+@
+
+
+2.2
+log
+@R2D10: Added link to Think Python source diff file.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 2.1 2021/09/03 14:04:04 heiko Exp heiko $
+d5 3
+d453 11
+a463 1
+[...]
 @
 
 
