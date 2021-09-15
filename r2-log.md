@@ -50,3 +50,6 @@ Prepared my first part of Section 1.6 (Debugging); a local file only: no uploads
 thinkpython2: Added a script with error messages, see Section 1.6 (Debugging); uploaded my main/s01_06_00_01.py etc. to this GitHub repo.
 
 ### R2D16
+thinkpython2.md: Added first part of Section 1.6 (Debugging); added Think Python source diff file; uploaded all to the GitHub repository.
+
+### R2D17
