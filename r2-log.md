@@ -53,3 +53,9 @@ thinkpython2: Added a script with error messages, see Section 1.6 (Debugging); u
 thinkpython2.md: Added first part of Section 1.6 (Debugging); added Think Python source diff file; uploaded all to the GitHub repository.
 
 ### R2D17
+Break.
+
+### R2D18
+thinkperl: Added script with error messages, see Section 1.6 (Debugging); uploaded my main/s01_06_00_01.pl etc. to the GitHub repository.
+
+### R2D19
