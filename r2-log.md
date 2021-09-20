@@ -59,3 +59,12 @@ Break.
 thinkperl: Added script with error messages, see Section 1.6 (Debugging); uploaded my main/s01_06_00_01.pl etc. to the GitHub repository.
 
 ### R2D19
+Break.
+
+### R2D20
+Break.
+
+### R2D21
+thinkperl.md: Added first part of Section 1.6 (Debugging); added the thinkpython2.md restore file; uploaded all to the GitHub repository.
+
+### R2D22
