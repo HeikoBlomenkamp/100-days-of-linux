@@ -1,9 +1,14 @@
-head	2.6;
+head	2.7;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.7
+date	2021.09.20.17.16.18;	author heiko;	state Exp;
+branches;
+next	2.6;
 
 2.6
 date	2021.09.11.17.02.59;	author heiko;	state Exp;
@@ -111,15 +116,18 @@ desc
 @
 
 
-2.6
+2.7
 log
-@R2D12: Replaced the quote from Think Java.
+@R2D21: Added first part of Section 1.6 (Debugging).
 @
 text
 @```
-// $Id: thinkperl.md,v 2.5 2021/09/11 15:27:15 heiko Exp heiko $
+// $Id: thinkperl.md,v 2.6 2021/09/11 17:02:59 heiko Exp heiko $
 //
 // $Log: thinkperl.md,v $
+// Revision 2.6  2021/09/11 17:02:59  heiko
+// R2D12: Replaced the quote from Think Java.
+//
 // Revision 2.5  2021/09/11 15:27:15  heiko
 // R2D12: Deleted second part of a quote from Think Java.
 //
@@ -181,7 +189,7 @@ text
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 12
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 21
 
 **Markdown Version of "Think Perl"**
 
@@ -565,6 +573,34 @@ displayed; while the **\\n** inserts a newline, they don't appear in the result.
 
 ### 1\.6 Debugging
 
+It is a good idea to read this book in front of a computer so you can try out the
+examples as you go. You can run most of the examples in interactive mode, but if you
+put the code in a script, it is easier to try out variations.
+
+Whenever you are experimenting with a new feature, you should try to make mistakes.
+For example, in the "Hello, world!" program, what happens if you leave out one of the
+quotation marks? What if you leave out both? What if you spell `print` wrong?
+
+This kind of experiment helps you remember what you read; it also helps with
+debugging, because you get to know what the error messages mean. It is better to make
+mistakes now and on purpose than later and accidentally.
+@
+
+
+2.6
+log
+@R2D12: Replaced the quote from Think Java.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkperl.md,v 2.5 2021/09/11 15:27:15 heiko Exp heiko $
+d5 3
+d69 1
+a69 1
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 12
+d453 11
+a463 2
 [...]
 
 @
