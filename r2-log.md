@@ -67,4 +67,10 @@ Break.
 ### R2D21
 thinkperl.md: Added first part of Section 1.6 (Debugging); added the thinkpython2.md restore file; uploaded all to the GitHub repository.
 
-### R2D22
+### R2D22 to R2D33
+Break.
+
+### R2D34
+thinkphp: Prepared first edition of PDF file; created some markdown lines; upload to https://www.hostedredmine.com/projects/hbprph/files
+
+### R2D35
