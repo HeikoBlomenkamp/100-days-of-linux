@@ -53,24 +53,27 @@ thinkpython2: Added a script with error messages, see Section 1.6 (Debugging); u
 thinkpython2.md: Added first part of Section 1.6 (Debugging); added Think Python source diff file; uploaded all to the GitHub repository.
 
 ### R2D17
-Break.
+Nothing new in this repository.
 
 ### R2D18
 thinkperl: Added script with error messages, see Section 1.6 (Debugging); uploaded my main/s01_06_00_01.pl etc. to the GitHub repository.
 
-### R2D19
-Break.
-
-### R2D20
-Break.
+### R2D19 to R2D20
+Nothing new in this repository.
 
 ### R2D21
 thinkperl.md: Added first part of Section 1.6 (Debugging); added the thinkpython2.md restore file; uploaded all to the GitHub repository.
 
 ### R2D22 to R2D33
-Break.
+Nothing new in this repository.
 
 ### R2D34
 thinkphp: Prepared first edition of PDF file; created some markdown lines; upload to https://www.hostedredmine.com/projects/hbprph/files
 
-### R2D35
+### R2D35 to R2D39
+Nothing new in this repository.
+
+### R2D40
+thinklua: Deleted all links to images; modified copyleft sect.; prepared link to modifications; uploaded all related files to this repo.
+
+### R2D41
