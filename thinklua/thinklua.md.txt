@@ -1,7 +1,13 @@
 ```
-// $Id: thinklua.md,v 2.2 2021/09/12 16:00:45 heiko Exp $
+// $Id: thinklua.md,v 2.4 2021/10/09 10:32:43 heiko Exp $
 //
 // $Log: thinklua.md,v $
+// Revision 2.4  2021/10/09 10:32:43  heiko
+// R2D40: Modyfied formatting of 'compiler' (two cases).
+//
+// Revision 2.3  2021/10/09 09:58:28  heiko
+// R2D40: Modified copyleft sect.; deleted all links to pics.
+//
 // Revision 2.2  2021/09/12 16:00:45  heiko
 // R2D13: Modified the formatting of recent text.
 //
@@ -42,7 +48,7 @@
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 13
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 40
 
 **Markdown Version of "Think Lua"**
 
@@ -61,7 +67,9 @@ Challenge started on May 23, 2021.
 First Edition (which uses Lua 5.4.3), Version 2.0.21
 
 Think Python First Edition: Copyright (C) 2017 Allen B. Downey.
-Modifications (Think Lua): Copyright (C) 2021 Heiko Blomenkamp.
+[Modifications](#) (Think Lua): Copyright (C) 2021 Heiko Blomenkamp.
+
+All rights reserved.
 
 Permission is granted to copy, distribute, and/or modify this work under the terms of
 the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
@@ -130,28 +138,14 @@ Due to these advantages, almost all programs are written in high-level languages
 Low-level languages are used only for a few specialized applications.
 
 Two kinds of programs process high-level languages into low-level languages:
-**interpreters** and **compilers**. An interpreter reads a high-level program and executes it,
+**interpreters** and compilers. An interpreter reads a high-level program and executes it,
 meaning that it does what the program says. It processes the program a little at a
-time, alternately reading lines and performing computations. Figure 1.1 shows the
-structure of an interpreter.
+time, alternately reading lines and performing computations.
 
-**Figure 1.1**
-: **An interpreter processes the program a little at a time,
-alternately reading lines and performing computations.**
-
-&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![From: Source Code to: Interpreter to: Output.](https://greenteapress.com/thinkpython/html/thinkpython001.png "Figure 1.1")
-
-A compiler reads the program and translates it completely before the program starts
+A **compiler** reads the program and translates it completely before the program starts
 running. In this context, the high-level program is called the **source code**, and the
 translated program is called the **object code** or the **executable**. Once a program is
-compiled, you can execute it repeatedly without further translation. Figure 1.2
-shows the structure of a compiler.
-
-**Figure 1.2**
-: **A compiler translates source code into object code,
-which is run by a hardware executor.**
-
-&#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
+compiled, you can execute it repeatedly without further translation.
 
 Lua is considered an interpreted language because Lua programs are executed by
 an interpreter. There are two ways to use the interpreter: **interactive mode** and **script
