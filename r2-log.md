@@ -76,4 +76,10 @@ Nothing new in this repository.
 ### R2D40
 thinklua: Deleted all links to images; modified copyleft sect.; prepared link to modifications; uploaded all related files to this repo.
 
-### R2D41
+### R2D41 to R2D43
+Nothing new in this repository.
+
+### R2D44
+thinkksh: Deleted all links to images; modified copyleft sect.; prepared link to modifications; uploaded all related files to this repo.
+
+### R2D45
