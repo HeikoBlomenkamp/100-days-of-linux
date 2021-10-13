@@ -1,9 +1,19 @@
-head	2.4;
+head	2.6;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.6
+date	2021.10.13.09.59.07;	author heiko;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	2021.10.13.09.39.58;	author heiko;	state Exp;
+branches;
+next	2.4;
 
 2.4
 date	2021.09.07.15.21.53;	author heiko;	state Exp;
@@ -66,15 +76,21 @@ desc
 @
 
 
-2.4
+2.6
 log
-@R2D8: Modified a link.
+@R2D44: Deleted hint to second picture.
 @
 text
 @```
-// $Id: thinkksh.md,v 2.3 2021/09/07 15:14:02 heiko Exp heiko $
+// $Id: thinkksh.md,v 2.5 2021/10/13 09:39:58 heiko Exp heiko $
 //
 // $Log: thinkksh.md,v $
+// Revision 2.5  2021/10/13 09:39:58  heiko
+// R2D44: Deleted all links to pics; modyfied formatting.
+//
+// Revision 2.4  2021/09/07 15:21:53  heiko
+// R2D8: Modified a link.
+//
 // Revision 2.3  2021/09/07 15:14:02  heiko
 // R2D8: Added Section 1.5 (The first program).
 //
@@ -109,7 +125,7 @@ text
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 1--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 44
 
 **Markdown Version of "Think KSH"**
 
@@ -128,7 +144,9 @@ Challenge started on May 23, 2021.
 First Edition (which uses KSH 93u+), Version 2.0.21
 
 Think Python First Edition: Copyright (C) 2017 Allen B. Downey.
-Modifications (Think KSH): Copyright (C) 2021 Heiko Blomenkamp.
+[Modifications](#) (Think KSH): Copyright (C) 2021 Heiko Blomenkamp.
+
+All rights reserved.
 
 Permission is granted to copy, distribute, and/or modify this work under the terms of
 the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
@@ -179,7 +197,7 @@ become clearer.
 
 The programming language you will learn is KSH. KSH is an example of a
 **high-level language**; other high-level languages you might have heard of are C, C++,
-Python, and Java.
+Perl, and Java.
 
 There are also **low-level languages**, sometimes referred to as "machine languages" or
 "assembly languages." Loosely speaking, computers can only run programs written in
@@ -198,28 +216,14 @@ Due to these advantages, almost all programs are written in high-level languages
 Low-level languages are used only for a few specialized applications.
 
 Two kinds of programs process high-level languages into low-level languages:
-**interpreters** and **compilers**. An interpreter reads a high-level program and executes it,
+**interpreters** and compilers. An interpreter reads a high-level program and executes it,
 meaning that it does what the program says. It processes the program a little at a
-time, alternately reading lines and performing computations. Figure 1.1 shows the
-structure of an interpreter.
+time, alternately reading lines and performing computations.
 
-**Figure 1.1**
-: **An interpreter processes the program a little at a time,
-alternately reading lines and performing computations.**
-
-&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![From: Source Code to: Interpreter to: Output.](https://greenteapress.com/thinkpython/html/thinkpython001.png "Figure 1.1")
-
-A compiler reads the program and translates it completely before the program starts
+A **compiler** reads the program and translates it completely before the program starts
 running. In this context, the high-level program is called the **source code**, and the
 translated program is called the **object code** or the **executable**. Once a program is
-compiled, you can execute it repeatedly without further translation. Figure 1.2
-shows the structure of a compiler.
-
-**Figure 1.2**
-: **A compiler translates source code into object code,
-which is run by a hardware executor.**
-
-&#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
+compiled, you can execute it repeatedly without further translation.
 
 KSH is considered an interpreted language because KSH programs are executed by
 an interpreter. There are two ways to use the interpreter: **interactive mode** and **script
@@ -493,6 +497,66 @@ displayed; they don't appear in the result.
 
 [...]
 
+@
+
+
+2.5
+log
+@R2D44: Deleted all links to pics; modyfied formatting.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkksh.md,v 2.4 2021/09/07 15:21:53 heiko Exp heiko $
+d5 3
+d117 1
+a117 1
+Python, and Java.
+d143 1
+a143 2
+compiled, you can execute it repeatedly without further translation. Figure 1.2
+shows the structure of a compiler.
+@
+
+
+2.4
+log
+@R2D8: Modified a link.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkksh.md,v 2.3 2021/09/07 15:14:02 heiko Exp heiko $
+d5 3
+d42 1
+a42 1
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 1--100
+d61 3
+a63 1
+Modifications (Think KSH): Copyright (C) 2021 Heiko Blomenkamp.
+d133 1
+a133 1
+**interpreters** and **compilers**. An interpreter reads a high-level program and executes it,
+d135 1
+a135 6
+time, alternately reading lines and performing computations. Figure 1.1 shows the
+structure of an interpreter.
+
+**Figure 1.1**
+: **An interpreter processes the program a little at a time,
+alternately reading lines and performing computations.**
+d137 1
+a137 3
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![From: Source Code to: Interpreter to: Output.](https://greenteapress.com/thinkpython/html/thinkpython001.png "Figure 1.1")
+
+A compiler reads the program and translates it completely before the program starts
+a141 6
+
+**Figure 1.2**
+: **A compiler translates source code into object code,
+which is run by a hardware executor.**
+
+&#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
 @
 
 
