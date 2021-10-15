@@ -1,7 +1,10 @@
 ```
-// $Id: thinkbash.md,v 2.2 2021/09/08 17:39:11 heiko Exp $
+// $Id: thinkbash.md,v 2.3 2021/10/15 16:02:08 heiko Exp $
 //
 // $Log: thinkbash.md,v $
+// Revision 2.3  2021/10/15 16:02:08  heiko
+// R2D46: Deleted all links to pics; modyfied formatting.
+//
 // Revision 2.2  2021/09/08 17:39:11  heiko
 // R2D9: Added Section 1.5 (The first program).
 //
@@ -51,7 +54,7 @@
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 2--100
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 46
 
 **Markdown Version of "Think Bash"**
 
@@ -70,7 +73,9 @@ Challenge started on May 23, 2021.
 First Edition (which uses GNU bash 5.1), Version 2.0.21
 
 Think Python First Edition: Copyright (C) 2017 Allen B. Downey.
-Modifications (Think Bash): Copyright (C) 2021 Heiko Blomenkamp.
+[Modifications](#) (Think Bash): Copyright (C) 2021 Heiko Blomenkamp.
+
+All rights reserved.
 
 Permission is granted to copy, distribute, and/or modify this work under the terms of
 the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
@@ -140,28 +145,14 @@ Due to these advantages, almost all programs are written in high-level languages
 Low-level languages are used only for a few specialized applications.
 
 Two kinds of programs process high-level languages into low-level languages:
-**interpreters** and **compilers**. An interpreter reads a high-level program and executes it,
+**interpreters** and compilers. An interpreter reads a high-level program and executes it,
 meaning that it does what the program says. It processes the program a little at a
-time, alternately reading lines and performing computations. Figure 1.1 shows the
-structure of an interpreter.
+time, alternately reading lines and performing computations.
 
-**Figure 1.1**
-: **An interpreter processes the program a little at a time,
-alternately reading lines and performing computations.**
-
-&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![From: Source Code to: Interpreter to: Output.](https://greenteapress.com/thinkpython/html/thinkpython001.png "Figure 1.1")
-
-A compiler reads the program and translates it completely before the program starts
+A **compiler** reads the program and translates it completely before the program starts
 running. In this context, the high-level program is called the **source code**, and the
 translated program is called the **object code** or the **executable**. Once a program is
-compiled, you can execute it repeatedly without further translation. Figure 1.2
-shows the structure of a compiler.
-
-**Figure 1.2**
-: **A compiler translates source code into object code,
-which is run by a hardware executor.**
-
-&#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
+compiled, you can execute it repeatedly without further translation.
 
 Bash is considered an interpreted language because Bash programs are executed by
 an interpreter. There are two ways to use the interpreter: **interactive mode** and **script
