@@ -83,3 +83,9 @@ Nothing new in this repository.
 thinkksh: Deleted all links to images; modified copyleft sect.; prepared link to modifications; uploaded all related files to this repo.
 
 ### R2D45
+Upgraded some of my virtual and/or real Linux machines.
+
+### R2D46
+thinkbash: Deleted all links to images; modified copyleft sect.; prepared link to modifications; uploaded all related files to the repo.
+
+### R2D47
