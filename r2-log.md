@@ -92,3 +92,9 @@ thinkbash: Deleted all links to images; modified copyleft sect.; prepared link t
 thinkpython2: Deleted all links to images; modified copyleft sect.; updated my patch for restoring the original content; upload to repo.
 
 ### R2D48
+Changed the operating system of one of my real machines (SurfBook W2: removed openSUSE Tumbleweed, installed openSUSE Leap 15.3).
+
+### R2D49
+thinkperl: Deleted all links to images; modified copyleft sect.; prepared link to modifications; uploaded all related files to the repo.
+
+### R2D50
