@@ -97,4 +97,7 @@ Changed the operating system of one of my real machines (SurfBook W2: removed op
 ### R2D49
 thinkperl: Deleted all links to images; modified copyleft sect.; prepared link to modifications; uploaded all related files to the repo.
 
-### R2D50
+### R2D50 to R2D60
+For all tasks: planning, assignment, testing.
+
+### R2D61
