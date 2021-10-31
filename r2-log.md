@@ -101,3 +101,6 @@ thinkperl: Deleted all links to images; modified copyleft sect.; prepared link t
 For all tasks: planning, assignment, testing.
 
 ### R2D61
+Studied my little black book about the Python programming language.
+
+### R2D62
