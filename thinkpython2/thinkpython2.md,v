@@ -1,9 +1,14 @@
-head	2.4;
+head	2.5;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.5
+date	2021.11.03.18.20.51;	author heiko;	state Exp;
+branches;
+next	2.4;
 
 2.4
 date	2021.10.16.13.10.22;	author heiko;	state Exp;
@@ -126,15 +131,18 @@ desc
 @
 
 
-2.4
+2.5
 log
-@R2D47: Modified copyleft sect.; deleted all links to pics.
+@R2D65: Modified url of the official Python website.
 @
 text
 @```
-// $Id: thinkpython2.md,v 2.3 2021/09/15 17:02:53 heiko Exp heiko $
+// $Id: thinkpython2.md,v 2.4 2021/10/16 13:10:22 heiko Exp heiko $
 //
 // $Log: thinkpython2.md,v $
+// Revision 2.4  2021/10/16 13:10:22  heiko
+// R2D47: Modified copyleft sect.; deleted all links to pics.
+//
 // Revision 2.3  2021/09/15 17:02:53  heiko
 // R2D16: Added first part of Section 1.6 (Debugging).
 //
@@ -205,7 +213,7 @@ text
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 47
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 65
 
 **Markdown Version of "Think Python" (v2.7)**
 
@@ -221,7 +229,7 @@ Challenge started on May 23, 2021.
 # Think Python: How to Think Like a Computer Scientist
 
 **Heiko Blomenkamp**
-Markdown Version (which uses Python 2.7), Revision 2.4
+Markdown Version (which uses Python 2.7), Revision 2.5
 
 Think Python First Edition: Copyright (C) 2017 Allen B. Downey.
 [Modifications](https://github.com/HeikoBlomenkamp/100-days-of-linux/blob/master/source/blomenk_downey.patch) (Markdown Version): Copyright (C) 2021 Heiko Blomenkamp.
@@ -326,7 +334,7 @@ To execute the script, you have to tell the interpreter the name of the file. If
 have a script named `dinsdale.py` and you are working in a \*NIX command window, you type
 `python dinsdale.py` . In other development environments, the details of executing
 scripts are different. You can find instructions for your environment at the Python
-website `http://python.org` .
+website `https://www.python.org` .
 
 Working in interactive mode is convenient for testing small pieces of code because you
 can type and execute them immediately. But for anything more than a few lines, you
@@ -587,6 +595,27 @@ This kind of experiment helps you remember what you read; it also helps with
 debugging, because you get to know what the error messages mean. It is better to make
 mistakes now and on purpose than later and accidentally.
 
+@
+
+
+2.4
+log
+@R2D47: Modified copyleft sect.; deleted all links to pics.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkpython2.md,v 2.3 2021/09/15 17:02:53 heiko Exp heiko $
+d5 3
+d78 1
+a78 1
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 47
+d94 1
+a94 1
+Markdown Version (which uses Python 2.7), Revision 2.4
+d199 1
+a199 1
+website `http://python.org` .
 @
 
 
