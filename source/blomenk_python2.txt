@@ -1,7 +1,10 @@
 
-// $Id: thinkpython2.md,v 2.4 2021/10/16 13:10:22 heiko Exp $
+// $Id: thinkpython2.md,v 2.5 2021/11/03 18:20:51 heiko Exp $
 //
 // $Log: thinkpython2.md,v $
+// Revision 2.5  2021/11/03 18:20:51  heiko
+// R2D65: Modified url of the official Python website.
+//
 // Revision 2.4  2021/10/16 13:10:22  heiko
 // R2D47: Modified copyleft sect.; deleted all links to pics.
 //
@@ -72,7 +75,7 @@
 // Initial revision
 //
 
-   [1]#100DaysOfLinux :: ROUND 2 DAY 47
+   [1]#100DaysOfLinux :: ROUND 2 DAY 65
 
    Markdown Version of “Think Python” (v2.7)
 
@@ -87,7 +90,7 @@
                      Think Python: How to Think Like a Computer Scientist
 
    Heiko Blomenkamp
-   Markdown Version (which uses Python 2.7), Revision 2.4
+   Markdown Version (which uses Python 2.7), Revision 2.5
 
    Think Python First Edition: Copyright © 2017 Allen B. Downey.
    [5]Modifications (Markdown Version): Copyright © 2021 Heiko Blomenkamp.
@@ -180,7 +183,7 @@ Preface
    have a script named dinsdale.py and you are working in a *NIX command window, you type
    python dinsdale.py . In other development environments, the details of executing
    scripts are different. You can find instructions for your environment at the Python
-   website http://python.org .
+   website https://www.python.org .
 
    Working in interactive mode is convenient for testing small pieces of code because you
    can type and execute them immediately. But for anything more than a few lines, you
