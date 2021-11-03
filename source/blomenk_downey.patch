@@ -1,10 +1,13 @@
---- blomenk_python2.txt	2021-10-16 15:25:35.491149032 +0200
-+++ downey_python2.txt	2021-08-08 01:32:52.570294578 +0200
-@@ -1,117 +1,10 @@
+--- blomenk_python2.txt	2021-11-03 18:33:57.529563695 +0000
++++ downey_python2.txt	2021-08-07 23:32:52.570294578 +0000
+@@ -1,120 +1,10 @@
  
--// $Id: thinkpython2.md,v 2.4 2021/10/16 13:10:22 heiko Exp $
+-// $Id: thinkpython2.md,v 2.5 2021/11/03 18:20:51 heiko Exp $
 -//
 -// $Log: thinkpython2.md,v $
+-// Revision 2.5  2021/11/03 18:20:51  heiko
+-// R2D65: Modified url of the official Python website.
+-//
 -// Revision 2.4  2021/10/16 13:10:22  heiko
 -// R2D47: Modified copyleft sect.; deleted all links to pics.
 -//
@@ -75,7 +78,7 @@
 -// Initial revision
 -//
 -
--   [1]#100DaysOfLinux :: ROUND 2 DAY 47
+-   [1]#100DaysOfLinux :: ROUND 2 DAY 65
 -
 -   Markdown Version of “Think Python” (v2.7)
 -
@@ -90,7 +93,7 @@
 -                     Think Python: How to Think Like a Computer Scientist
 -
 -   Heiko Blomenkamp
--   Markdown Version (which uses Python 2.7), Revision 2.4
+-   Markdown Version (which uses Python 2.7), Revision 2.5
 -
 -   Think Python First Edition: Copyright © 2017 Allen B. Downey.
 -   [5]Modifications (Markdown Version): Copyright © 2021 Heiko Blomenkamp.
@@ -122,7 +125,7 @@
  
     The goal of this book is to teach you to think like a computer scientist. This way of
     thinking combines some of the best features of mathematics, engineering, and natural
-@@ -130,7 +23,7 @@
+@@ -133,7 +23,7 @@
     level, you will use programming as a means to an end. As we go along, that end will
     become clearer.
  
@@ -131,7 +134,7 @@
  
     The programming language you will learn is Python. Python is an example of a
     high-level language; other high-level languages you might have heard of are C, C++,
-@@ -155,12 +48,28 @@
+@@ -158,12 +48,28 @@
     Two kinds of programs process high-level languages into low-level languages:
     interpreters and compilers. An interpreter reads a high-level program and executes it,
     meaning that it does what the program says. It processes the program a little at a
@@ -162,7 +165,7 @@
  
     Python is considered an interpreted language because Python programs are executed by
     an interpreter. There are two ways to use the interpreter: interactive mode and script
-@@ -169,24 +78,24 @@
+@@ -172,24 +78,24 @@
  >>> 1 + 1
  2
  
@@ -182,7 +185,7 @@
 +   have a script named dinsdale.py and you are working in a UNIX command window, you type
 +   python dinsdale.py. In other development environments, the details of executing
     scripts are different. You can find instructions for your environment at the Python
--   website http://python.org .
+-   website https://www.python.org .
 +   website [7]http://python.org.
  
     Working in interactive mode is convenient for testing small pieces of code because you
@@ -194,7 +197,7 @@
  
     A program is a sequence of instructions that specifies how to perform a computation.
     The computation might be something mathematical, such as solving a system of equations
-@@ -221,7 +130,7 @@
+@@ -224,7 +130,7 @@
     That may be a little vague, but we will come back to this topic when we talk about
     algorithms.
  
@@ -203,7 +206,7 @@
  
     Programming is error-prone. For whimsical reasons, programming errors are called bugs
     and the process of tracking them down is called debugging.
-@@ -230,22 +139,22 @@
+@@ -233,22 +139,22 @@
     semantic errors. It is useful to distinguish between them in order to track them down
     more quickly.
  
@@ -231,7 +234,7 @@
  
     The second type of error is a runtime error, so called because the error does not
     appear until after the program has started running. These errors are also called
-@@ -255,7 +164,7 @@
+@@ -258,7 +164,7 @@
     Runtime errors are rare in the simple programs you will see in the first few chapters,
     so it might be a while before you encounter one.
  
@@ -240,7 +243,7 @@
  
     The third type of error is the semantic error. If there is a semantic error in your
     program, it will run successfully in the sense that the computer will not generate any
-@@ -267,7 +176,7 @@
+@@ -270,7 +176,7 @@
     tricky because it requires you to work backward by looking at the output of the
     program and trying to figure out what it is doing.
  
@@ -249,7 +252,7 @@
  
     One of the most important skills you will acquire is debugging. Although it can be
     frustrating, debugging is one of the most intellectually rich, challenging, and
-@@ -280,11 +189,8 @@
+@@ -283,11 +189,8 @@
     going wrong, you modify your program and try again. If your hypothesis was correct,
     then you can predict the result of the modification, and you take a step closer to a
     working program. If your hypothesis was wrong, you have to come up with a new one. As
@@ -263,7 +266,7 @@
  
     For some people, programming and debugging are the same thing. That is, programming is
     the process of gradually debugging a program until it does what you want. The idea is
-@@ -293,17 +199,14 @@
+@@ -296,17 +199,14 @@
  
     For example, Linux is an operating system that contains thousands of lines of code,
     but it started out as a simple program Linus Torvalds used to explore the Intel 80386
@@ -285,7 +288,7 @@
  
     Natural languages are the languages people speak, such as English, Spanish, and
     French. They were not designed by people (although people try to impose some order on
-@@ -315,23 +218,27 @@
+@@ -318,23 +218,27 @@
     formal language to represent the chemical structure of molecules. And most
     importantly:
  
@@ -320,7 +323,7 @@
  
     When you read a sentence in English or a statement in a formal language, you have to
     figure out what the structure of the sentence is (although in a natural language you
-@@ -389,7 +296,7 @@
+@@ -392,7 +296,7 @@
     the details matter. Small errors in spelling and punctuation, which you can get away
     with in natural languages, can make a big difference in a formal language.
  
@@ -329,7 +332,7 @@
  
     Traditionally, the first program you write in a new language is called “Hello, World!”
     because all it does is display the words “Hello, World!”. In Python, it looks like
-@@ -403,7 +310,17 @@
+@@ -406,7 +310,17 @@
     The quotation marks in the program mark the beginning and end of the text to be
     displayed; they don’t appear in the result.
  
@@ -348,7 +351,7 @@
  
     It is a good idea to read this book in front of a computer so you can try out the
     examples as you go. You can run most of the examples in interactive mode, but if you
-@@ -417,19 +334,214 @@
+@@ -420,19 +334,214 @@
     debugging, because you get to know what the error messages mean. It is better to make
     mistakes now and on purpose than later and accidentally.
  
