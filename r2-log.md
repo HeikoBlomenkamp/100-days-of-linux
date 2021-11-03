@@ -103,4 +103,11 @@ For all tasks: planning, assignment, testing.
 ### R2D61
 Studied my little black book about the Python programming language.
 
-### R2D62
+### R2D62 to R2D64
+For all tasks: planning, assignment, testing.
+
+### R2D65
+thinkpython2: Modified the URL of the official Python website; current value is: https://www.python.org; uploaded all my related files.
+
+### R2D66
+
