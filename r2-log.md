@@ -110,4 +110,9 @@ For all tasks: planning, assignment, testing.
 thinkpython2: Modified the URL of the official Python website; current value is: https://www.python.org; uploaded all my related files.
 
 ### R2D66
+For all tasks: planning, assignment, testing.
 
+### R2D67
+thinkpython2: Modified one URL to the official Perl website; the current value is: https://www.perl.org; uploaded all my related files.
+
+### R2D68
