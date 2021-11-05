@@ -1,7 +1,10 @@
 ```
-// $Id: thinkperl.md,v 2.8 2021/10/18 15:55:54 heiko Exp $
+// $Id: thinkperl.md,v 2.9 2021/11/05 19:02:04 heiko Exp $
 //
 // $Log: thinkperl.md,v $
+// Revision 2.9  2021/11/05 19:02:04  heiko
+// R2D67: Modified URL to the official Perl website.
+//
 // Revision 2.8  2021/10/18 15:55:54  heiko
 // R2D49: Modified copyleft sect.; deleted all links to pics.
 //
@@ -72,7 +75,7 @@
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 49
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 67
 
 **Markdown Version of "Think Perl" (v5.26)**
 
@@ -88,7 +91,7 @@ Challenge started on May 23, 2021.
 # Think Perl: How to Think Like a Computer Scientist
 
 **Heiko Blomenkamp**
-Markdown Version (which uses Perl 5.26), Revision 2.8
+Markdown Version (which uses Perl 5.26), Revision 2.9
 
 Think Python First Edition: Copyright (C) 2017 Allen B. Downey.
 [Modifications](#) (Think Perl): Copyright (C) 2021 Heiko Blomenkamp.
@@ -195,7 +198,7 @@ To execute the script, you have to tell the interpreter the name of the file. If
 have a script named `dinsdale.pl` and you are working in a \*NIX command window, you type
 `perl dinsdale.pl` . In other development environments, the details of executing
 scripts are different. You can find instructions for your environment at the Perl
-website `http://perl.org` .
+website `https://www.perl.org` .
 
 Working in interactive mode is convenient for testing small pieces of code because you
 can type and execute them immediately. But for anything more than a few lines, you
