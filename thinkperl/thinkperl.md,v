@@ -1,9 +1,14 @@
-head	2.8;
+head	2.9;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.9
+date	2021.11.05.19.02.04;	author heiko;	state Exp;
+branches;
+next	2.8;
 
 2.8
 date	2021.10.18.15.55.54;	author heiko;	state Exp;
@@ -121,15 +126,18 @@ desc
 @
 
 
-2.8
+2.9
 log
-@R2D49: Modified copyleft sect.; deleted all links to pics.
+@R2D67: Modified URL to the official Perl website.
 @
 text
 @```
-// $Id: thinkperl.md,v 2.7 2021/09/20 17:16:18 heiko Exp heiko $
+// $Id: thinkperl.md,v 2.8 2021/10/18 15:55:54 heiko Exp heiko $
 //
 // $Log: thinkperl.md,v $
+// Revision 2.8  2021/10/18 15:55:54  heiko
+// R2D49: Modified copyleft sect.; deleted all links to pics.
+//
 // Revision 2.7  2021/09/20 17:16:18  heiko
 // R2D21: Added first part of Section 1.6 (Debugging).
 //
@@ -197,7 +205,7 @@ text
 
 
 
-[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 49
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 67
 
 **Markdown Version of "Think Perl" (v5.26)**
 
@@ -213,7 +221,7 @@ Challenge started on May 23, 2021.
 # Think Perl: How to Think Like a Computer Scientist
 
 **Heiko Blomenkamp**
-Markdown Version (which uses Perl 5.26), Revision 2.8
+Markdown Version (which uses Perl 5.26), Revision 2.9
 
 Think Python First Edition: Copyright (C) 2017 Allen B. Downey.
 [Modifications](#) (Think Perl): Copyright (C) 2021 Heiko Blomenkamp.
@@ -320,7 +328,7 @@ To execute the script, you have to tell the interpreter the name of the file. If
 have a script named `dinsdale.pl` and you are working in a \*NIX command window, you type
 `perl dinsdale.pl` . In other development environments, the details of executing
 scripts are different. You can find instructions for your environment at the Perl
-website `http://perl.org` .
+website `https://www.perl.org` .
 
 Working in interactive mode is convenient for testing small pieces of code because you
 can type and execute them immediately. But for anything more than a few lines, you
@@ -580,6 +588,27 @@ quotation marks? What if you leave out both? What if you spell `print` wrong?
 This kind of experiment helps you remember what you read; it also helps with
 debugging, because you get to know what the error messages mean. It is better to make
 mistakes now and on purpose than later and accidentally.
+@
+
+
+2.8
+log
+@R2D49: Modified copyleft sect.; deleted all links to pics.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkperl.md,v 2.7 2021/09/20 17:16:18 heiko Exp heiko $
+d5 3
+d75 1
+a75 1
+[\#100DaysOfLinux](https://twitter.com/hashtag/100DaysOfLinux) :: ROUND 2 DAY 49
+d91 1
+a91 1
+Markdown Version (which uses Perl 5.26), Revision 2.8
+d198 1
+a198 1
+website `http://perl.org` .
 @
 
 
