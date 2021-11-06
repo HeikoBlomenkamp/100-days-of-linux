@@ -113,6 +113,9 @@ thinkpython2: Modified the URL of the official Python website; current value is:
 For all tasks: planning, assignment, testing.
 
 ### R2D67
-thinkpython2: Modified one URL to the official Perl website; the current value is: https://www.perl.org; uploaded all my related files.
+thinkperl: Modified one URL to the official Perl website; the current value is: https://www.perl.org; uploaded all my related files.
 
 ### R2D68
+thinklua: Modified one URL to the official Lua website; the current value is: https://www.lua.org; uploaded all related thinklua files.
+
+### R2D69
