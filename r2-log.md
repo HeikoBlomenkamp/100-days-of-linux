@@ -118,4 +118,7 @@ thinkperl: Modified one URL to the official Perl website; the current value is: 
 ### R2D68
 thinklua: Modified one URL to the official Lua website; the current value is: https://www.lua.org; uploaded all related thinklua files.
 
-### R2D69
+### R2D69 to R2D87
+For all tasks: planning, assignment, testing.
+
+### R2D88
