@@ -122,3 +122,7 @@ thinklua: Modified one URL to the official Lua website; the current value is: ht
 For all tasks: planning, assignment, testing.
 
 ### R2D90
+thinkpython2: Modified mention of the "Hello, World!" program; modified Python version number (2.7.18); planning, assignment, testing.
+
+### R2D91
+
