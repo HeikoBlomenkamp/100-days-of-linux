@@ -1,7 +1,10 @@
 
-// $Id: thinkpython2.md,v 2.5 2021/11/03 18:20:51 heiko Exp $
+// $Id: thinkpython2.md,v 2.6 2021/11/26 23:28:16 heiko Exp $
 //
 // $Log: thinkpython2.md,v $
+// Revision 2.6  2021/11/26 23:28:16  heiko
+// R2D88: Modified one mention of the "Hello, World!" program.
+//
 // Revision 2.5  2021/11/03 18:20:51  heiko
 // R2D65: Modified url of the official Python website.
 //
@@ -75,9 +78,9 @@
 // Initial revision
 //
 
-   [1]#100DaysOfLinux :: ROUND 2 DAY 65
+   [1]#100DaysOfLinux :: ROUND 2 DAY 88
 
-   Markdown Version of “Think Python” (v2.7)
+   Markdown Version of “Think Python” (v2.7.18)
 
    Adapted from Allen B. Downey’s “Think Python First Edition.”
    Think Python First Edition is available at
@@ -90,7 +93,7 @@
                      Think Python: How to Think Like a Computer Scientist
 
    Heiko Blomenkamp
-   Markdown Version (which uses Python 2.7), Revision 2.5
+   Markdown Version (which uses Python 2.7.18), Revision 2.6
 
    Think Python First Edition: Copyright © 2017 Allen B. Downey.
    [5]Modifications (Markdown Version): Copyright © 2021 Heiko Blomenkamp.
@@ -413,7 +416,7 @@ Hello, World!
    put the code in a script, it is easier to try out variations.
 
    Whenever you are experimenting with a new feature, you should try to make mistakes.
-   For example, in the “Hello, world!” program, what happens if you leave out one of the
+   For example, in the “Hello, World!” program, what happens if you leave out one of the
    quotation marks? What if you leave out both? What if you spell print wrong?
 
    This kind of experiment helps you remember what you read; it also helps with
